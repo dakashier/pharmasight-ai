@@ -1,0 +1,1001 @@
+Patient_ID,Age,Gender,Actual_Outcome,Predicted_Risk_Category,Risk_Score,Prob_Low_Risk,Prob_Medium_Risk,Prob_High_Risk,Recommendation
+PAT00001,86,Female,High Risk,Low Risk,34.67,51.33,28.0,20.67,Routine annual checkup
+PAT00002,34,Male,Low Risk,Low Risk,19.17,77.0,7.67,15.33,Routine annual checkup
+PAT00003,51,Female,Low Risk,Low Risk,25.5,57.0,35.0,8.0,Routine annual checkup
+PAT00004,87,Male,Low Risk,Low Risk,12.83,81.0,12.33,6.67,Routine annual checkup
+PAT00005,37,Male,High Risk,High Risk,68.33,27.67,8.0,64.33,Immediate clinical review + lifestyle intervention
+PAT00006,62,Female,Medium Risk,Medium Risk,55.67,8.0,72.67,19.33,Schedule follow-up screening within 3 months
+PAT00007,54,Female,Low Risk,Low Risk,17.33,76.33,12.67,11.0,Routine annual checkup
+PAT00008,77,Female,Medium Risk,Medium Risk,43.17,20.0,73.67,6.33,Schedule follow-up screening within 3 months
+PAT00009,52,Male,Low Risk,Low Risk,10.5,86.33,6.33,7.33,Routine annual checkup
+PAT00010,33,Male,Low Risk,Low Risk,18.0,78.0,8.0,14.0,Routine annual checkup
+PAT00011,53,Male,Medium Risk,Medium Risk,46.83,14.67,77.0,8.33,Schedule follow-up screening within 3 months
+PAT00012,80,Male,Low Risk,Low Risk,15.67,75.0,18.67,6.33,Routine annual checkup
+PAT00013,23,Male,Low Risk,Low Risk,12.0,81.33,13.33,5.33,Routine annual checkup
+PAT00014,78,Male,High Risk,High Risk,78.0,17.33,9.33,73.33,Immediate clinical review + lifestyle intervention
+PAT00015,48,Female,High Risk,High Risk,75.0,20.33,9.33,70.33,Immediate clinical review + lifestyle intervention
+PAT00016,25,Female,Medium Risk,Medium Risk,38.83,34.0,54.33,11.67,Schedule follow-up screening within 3 months
+PAT00017,68,Male,Medium Risk,Medium Risk,43.67,16.0,80.67,3.33,Schedule follow-up screening within 3 months
+PAT00018,59,Female,Low Risk,Low Risk,13.33,84.0,5.33,10.67,Routine annual checkup
+PAT00019,84,Female,High Risk,Low Risk,40.5,40.67,37.67,21.67,Routine annual checkup
+PAT00020,88,Male,Low Risk,Low Risk,17.5,75.0,15.0,10.0,Routine annual checkup
+PAT00021,46,Male,High Risk,High Risk,82.5,13.33,8.33,78.33,Immediate clinical review + lifestyle intervention
+PAT00022,25,Female,Low Risk,Low Risk,17.17,76.33,13.0,10.67,Routine annual checkup
+PAT00023,32,Male,Low Risk,Low Risk,12.33,84.0,7.33,8.67,Routine annual checkup
+PAT00024,83,Male,High Risk,High Risk,72.17,22.0,11.67,66.33,Immediate clinical review + lifestyle intervention
+PAT00025,81,Female,High Risk,Low Risk,36.17,50.0,27.67,22.33,Routine annual checkup
+PAT00026,38,Male,Low Risk,Low Risk,16.33,71.33,24.67,4.0,Routine annual checkup
+PAT00027,62,Female,Low Risk,Low Risk,40.67,43.67,31.33,25.0,Routine annual checkup
+PAT00028,39,Female,Medium Risk,Medium Risk,46.5,12.0,83.0,5.0,Schedule follow-up screening within 3 months
+PAT00029,87,Female,Medium Risk,Medium Risk,40.5,21.0,77.0,2.0,Schedule follow-up screening within 3 months
+PAT00030,63,Female,Medium Risk,Medium Risk,42.0,21.33,73.33,5.33,Schedule follow-up screening within 3 months
+PAT00031,42,Female,High Risk,High Risk,72.33,20.0,15.33,64.67,Immediate clinical review + lifestyle intervention
+PAT00032,21,Male,Low Risk,Low Risk,9.33,86.0,9.33,4.67,Routine annual checkup
+PAT00033,41,Male,Low Risk,Low Risk,14.67,77.33,16.0,6.67,Routine annual checkup
+PAT00034,76,Male,Medium Risk,Medium Risk,40.17,25.67,68.33,6.0,Schedule follow-up screening within 3 months
+PAT00035,26,Male,Low Risk,Low Risk,8.5,85.67,11.67,2.67,Routine annual checkup
+PAT00036,75,Female,High Risk,High Risk,75.67,18.33,12.0,69.67,Immediate clinical review + lifestyle intervention
+PAT00037,86,Female,Low Risk,Low Risk,13.0,82.67,8.67,8.67,Routine annual checkup
+PAT00038,35,Male,Medium Risk,Medium Risk,44.33,19.67,72.0,8.33,Schedule follow-up screening within 3 months
+PAT00039,70,Female,Medium Risk,Medium Risk,46.17,17.0,73.67,9.33,Schedule follow-up screening within 3 months
+PAT00040,31,Male,Medium Risk,Low Risk,32.0,55.0,26.0,19.0,Routine annual checkup
+PAT00041,72,Male,Medium Risk,Low Risk,21.5,70.0,17.0,13.0,Routine annual checkup
+PAT00042,24,Male,Low Risk,Low Risk,11.17,81.67,14.33,4.0,Routine annual checkup
+PAT00043,46,Female,Low Risk,Low Risk,10.83,85.67,7.0,7.33,Routine annual checkup
+PAT00044,31,Female,Medium Risk,Medium Risk,44.67,18.0,74.67,7.33,Schedule follow-up screening within 3 months
+PAT00045,36,Female,Low Risk,Medium Risk,49.17,29.33,43.0,27.67,Schedule follow-up screening within 3 months
+PAT00046,25,Female,Medium Risk,Medium Risk,41.5,21.0,75.0,4.0,Schedule follow-up screening within 3 months
+PAT00047,24,Male,Low Risk,Low Risk,31.67,51.67,33.33,15.0,Routine annual checkup
+PAT00048,76,Female,High Risk,High Risk,73.17,19.33,15.0,65.67,Immediate clinical review + lifestyle intervention
+PAT00049,47,Female,High Risk,Low Risk,35.5,50.33,28.33,21.33,Routine annual checkup
+PAT00050,88,Female,Medium Risk,Low Risk,30.33,49.0,41.33,9.67,Routine annual checkup
+PAT00051,78,Male,Low Risk,Low Risk,12.0,79.33,17.33,3.33,Routine annual checkup
+PAT00052,52,Male,Low Risk,Low Risk,15.17,80.33,9.0,10.67,Routine annual checkup
+PAT00053,81,Female,Medium Risk,Medium Risk,39.67,25.33,70.0,4.67,Schedule follow-up screening within 3 months
+PAT00054,69,Female,High Risk,High Risk,72.83,25.0,4.33,70.67,Immediate clinical review + lifestyle intervention
+PAT00055,38,Female,Medium Risk,Medium Risk,47.5,11.33,82.33,6.33,Schedule follow-up screening within 3 months
+PAT00056,88,Female,Low Risk,Low Risk,15.33,82.33,4.67,13.0,Routine annual checkup
+PAT00057,85,Male,Low Risk,Low Risk,8.17,88.33,7.0,4.67,Routine annual checkup
+PAT00058,66,Female,High Risk,High Risk,79.67,11.67,17.33,71.0,Immediate clinical review + lifestyle intervention
+PAT00059,58,Female,High Risk,High Risk,70.67,24.33,10.0,65.67,Immediate clinical review + lifestyle intervention
+PAT00060,87,Female,Low Risk,Low Risk,12.83,80.67,13.0,6.33,Routine annual checkup
+PAT00061,52,Male,High Risk,High Risk,72.83,22.33,9.67,68.0,Immediate clinical review + lifestyle intervention
+PAT00062,32,Male,High Risk,High Risk,82.33,9.0,17.33,73.67,Immediate clinical review + lifestyle intervention
+PAT00063,73,Female,High Risk,High Risk,78.0,12.0,20.0,68.0,Immediate clinical review + lifestyle intervention
+PAT00064,26,Female,Medium Risk,Medium Risk,49.67,26.67,47.33,26.0,Schedule follow-up screening within 3 months
+PAT00065,33,Female,Low Risk,Low Risk,12.67,81.0,12.67,6.33,Routine annual checkup
+PAT00066,38,Female,Low Risk,Low Risk,14.83,77.67,15.0,7.33,Routine annual checkup
+PAT00067,73,Female,Medium Risk,Medium Risk,48.0,10.0,84.0,6.0,Schedule follow-up screening within 3 months
+PAT00068,39,Male,Low Risk,Low Risk,8.67,86.67,9.33,4.0,Routine annual checkup
+PAT00069,48,Male,High Risk,High Risk,76.67,19.0,8.67,72.33,Immediate clinical review + lifestyle intervention
+PAT00070,43,Male,Low Risk,Low Risk,12.33,84.0,7.33,8.67,Routine annual checkup
+PAT00071,82,Female,Low Risk,Low Risk,9.33,85.0,11.33,3.67,Routine annual checkup
+PAT00072,76,Male,Low Risk,Low Risk,10.67,85.33,8.0,6.67,Routine annual checkup
+PAT00073,27,Male,Medium Risk,Medium Risk,44.17,19.0,73.67,7.33,Schedule follow-up screening within 3 months
+PAT00074,81,Male,High Risk,High Risk,75.67,19.67,9.33,71.0,Immediate clinical review + lifestyle intervention
+PAT00075,48,Female,Medium Risk,Medium Risk,45.0,14.0,82.0,4.0,Schedule follow-up screening within 3 months
+PAT00076,36,Female,Low Risk,Low Risk,16.33,79.67,8.0,12.33,Routine annual checkup
+PAT00077,85,Male,High Risk,Low Risk,20.5,68.0,23.0,9.0,Routine annual checkup
+PAT00078,25,Female,Low Risk,Low Risk,21.83,69.0,18.33,12.67,Routine annual checkup
+PAT00079,77,Male,Low Risk,Low Risk,8.17,86.33,11.0,2.67,Routine annual checkup
+PAT00080,88,Male,Low Risk,Low Risk,11.67,81.33,14.0,4.67,Routine annual checkup
+PAT00081,47,Male,Low Risk,Low Risk,14.5,81.0,9.0,10.0,Routine annual checkup
+PAT00082,81,Male,High Risk,Low Risk,30.5,57.0,25.0,18.0,Routine annual checkup
+PAT00083,60,Female,High Risk,High Risk,80.5,15.33,8.33,76.33,Immediate clinical review + lifestyle intervention
+PAT00084,88,Female,High Risk,High Risk,81.5,10.0,17.0,73.0,Immediate clinical review + lifestyle intervention
+PAT00085,60,Female,Low Risk,Low Risk,15.33,74.67,20.0,5.33,Routine annual checkup
+PAT00086,68,Female,High Risk,Low Risk,23.5,64.33,24.33,11.33,Routine annual checkup
+PAT00087,68,Male,Low Risk,Low Risk,5.33,92.0,5.33,2.67,Routine annual checkup
+PAT00088,22,Female,High Risk,High Risk,74.33,18.33,14.67,67.0,Immediate clinical review + lifestyle intervention
+PAT00089,29,Male,Medium Risk,Medium Risk,46.67,12.67,81.33,6.0,Schedule follow-up screening within 3 months
+PAT00090,54,Female,Low Risk,Low Risk,11.17,82.33,13.0,4.67,Routine annual checkup
+PAT00091,21,Female,Medium Risk,Medium Risk,44.33,19.67,72.0,8.33,Schedule follow-up screening within 3 months
+PAT00092,43,Female,Medium Risk,Medium Risk,46.5,17.33,72.33,10.33,Schedule follow-up screening within 3 months
+PAT00093,57,Male,Low Risk,Low Risk,14.0,75.0,22.0,3.0,Routine annual checkup
+PAT00094,41,Male,Medium Risk,Medium Risk,53.0,10.33,73.33,16.33,Schedule follow-up screening within 3 months
+PAT00095,45,Male,Medium Risk,Medium Risk,41.17,22.33,73.0,4.67,Schedule follow-up screening within 3 months
+PAT00096,62,Male,Medium Risk,Medium Risk,52.0,8.33,79.33,12.33,Schedule follow-up screening within 3 months
+PAT00097,74,Female,Medium Risk,Medium Risk,45.0,17.33,75.33,7.33,Schedule follow-up screening within 3 months
+PAT00098,58,Male,Low Risk,Low Risk,10.5,85.67,7.67,6.67,Routine annual checkup
+PAT00099,48,Male,Low Risk,Low Risk,29.5,63.33,14.33,22.33,Routine annual checkup
+PAT00100,39,Female,Medium Risk,Medium Risk,49.33,17.67,66.0,16.33,Schedule follow-up screening within 3 months
+PAT00101,60,Female,Medium Risk,Medium Risk,43.33,20.0,73.33,6.67,Schedule follow-up screening within 3 months
+PAT00102,73,Male,Medium Risk,Medium Risk,46.67,14.0,78.67,7.33,Schedule follow-up screening within 3 months
+PAT00103,39,Female,Low Risk,Low Risk,12.67,82.0,10.67,7.33,Routine annual checkup
+PAT00104,38,Male,High Risk,High Risk,78.0,16.33,11.33,72.33,Immediate clinical review + lifestyle intervention
+PAT00105,85,Female,Medium Risk,Low Risk,28.33,58.67,26.0,15.33,Routine annual checkup
+PAT00106,49,Male,Low Risk,Low Risk,13.0,84.33,5.33,10.33,Routine annual checkup
+PAT00107,72,Male,Low Risk,Low Risk,12.33,82.67,10.0,7.33,Routine annual checkup
+PAT00108,53,Male,High Risk,High Risk,80.5,14.67,9.67,75.67,Immediate clinical review + lifestyle intervention
+PAT00109,41,Male,Medium Risk,Medium Risk,44.33,15.67,80.0,4.33,Schedule follow-up screening within 3 months
+PAT00110,86,Male,Medium Risk,Low Risk,23.5,65.0,23.0,12.0,Routine annual checkup
+PAT00111,25,Female,High Risk,High Risk,76.83,19.0,8.33,72.67,Immediate clinical review + lifestyle intervention
+PAT00112,46,Male,Low Risk,Low Risk,9.83,85.67,9.0,5.33,Routine annual checkup
+PAT00113,29,Male,Low Risk,Low Risk,30.83,54.0,30.33,15.67,Routine annual checkup
+PAT00114,67,Male,Low Risk,Low Risk,26.0,62.33,23.33,14.33,Routine annual checkup
+PAT00115,89,Male,High Risk,High Risk,78.83,16.67,9.0,74.33,Immediate clinical review + lifestyle intervention
+PAT00116,78,Male,High Risk,High Risk,81.67,14.0,8.67,77.33,Immediate clinical review + lifestyle intervention
+PAT00117,78,Female,Medium Risk,Medium Risk,34.83,41.0,48.33,10.67,Schedule follow-up screening within 3 months
+PAT00118,21,Female,Medium Risk,Low Risk,30.83,55.33,27.67,17.0,Routine annual checkup
+PAT00119,48,Male,Low Risk,Low Risk,36.33,48.0,31.33,20.67,Routine annual checkup
+PAT00120,87,Female,High Risk,High Risk,79.0,18.0,6.0,76.0,Immediate clinical review + lifestyle intervention
+PAT00121,84,Male,High Risk,High Risk,78.67,13.67,15.33,71.0,Immediate clinical review + lifestyle intervention
+PAT00122,45,Female,Medium Risk,Medium Risk,48.17,14.67,74.33,11.0,Schedule follow-up screening within 3 months
+PAT00123,29,Female,Medium Risk,Medium Risk,44.5,15.67,79.67,4.67,Schedule follow-up screening within 3 months
+PAT00124,72,Male,Medium Risk,Medium Risk,41.0,24.0,70.0,6.0,Schedule follow-up screening within 3 months
+PAT00125,78,Female,Low Risk,Low Risk,13.67,75.33,22.0,2.67,Routine annual checkup
+PAT00126,41,Female,High Risk,Low Risk,29.33,55.67,30.0,14.33,Routine annual checkup
+PAT00127,70,Male,Low Risk,Medium Risk,46.0,31.67,44.67,23.67,Schedule follow-up screening within 3 months
+PAT00128,67,Male,Medium Risk,Medium Risk,50.33,11.67,76.0,12.33,Schedule follow-up screening within 3 months
+PAT00129,40,Female,Medium Risk,Medium Risk,45.0,14.0,82.0,4.0,Schedule follow-up screening within 3 months
+PAT00130,41,Female,Low Risk,Low Risk,37.5,47.67,29.67,22.67,Routine annual checkup
+PAT00131,49,Female,Medium Risk,Low Risk,24.0,65.67,20.67,13.67,Routine annual checkup
+PAT00132,44,Male,Low Risk,Low Risk,36.83,48.67,29.0,22.33,Routine annual checkup
+PAT00133,47,Female,Medium Risk,Low Risk,30.67,54.0,30.67,15.33,Routine annual checkup
+PAT00134,84,Female,Low Risk,Low Risk,14.0,79.67,12.67,7.67,Routine annual checkup
+PAT00135,64,Female,Low Risk,Low Risk,18.17,76.67,10.33,13.0,Routine annual checkup
+PAT00136,87,Male,Low Risk,Low Risk,10.0,86.67,6.67,6.67,Routine annual checkup
+PAT00137,26,Male,Low Risk,Low Risk,37.0,47.33,31.33,21.33,Routine annual checkup
+PAT00138,68,Male,Low Risk,Low Risk,11.5,80.0,17.0,3.0,Routine annual checkup
+PAT00139,28,Male,Medium Risk,Medium Risk,51.33,10.67,76.0,13.33,Schedule follow-up screening within 3 months
+PAT00140,55,Female,Low Risk,Low Risk,5.67,90.33,8.0,1.67,Routine annual checkup
+PAT00141,20,Male,Low Risk,Low Risk,17.0,77.0,12.0,11.0,Routine annual checkup
+PAT00142,29,Female,High Risk,High Risk,72.33,22.67,10.0,67.33,Immediate clinical review + lifestyle intervention
+PAT00143,55,Female,Medium Risk,Medium Risk,45.67,15.67,77.33,7.0,Schedule follow-up screening within 3 months
+PAT00144,65,Female,Low Risk,Low Risk,18.5,74.33,14.33,11.33,Routine annual checkup
+PAT00145,51,Female,Medium Risk,Medium Risk,44.33,18.0,75.33,6.67,Schedule follow-up screening within 3 months
+PAT00146,51,Male,Medium Risk,Medium Risk,46.17,15.33,77.0,7.67,Schedule follow-up screening within 3 months
+PAT00147,25,Male,Low Risk,Low Risk,18.67,74.33,14.0,11.67,Routine annual checkup
+PAT00148,67,Male,High Risk,High Risk,81.5,11.33,14.33,74.33,Immediate clinical review + lifestyle intervention
+PAT00149,57,Male,Medium Risk,Medium Risk,44.67,16.33,78.0,5.67,Schedule follow-up screening within 3 months
+PAT00150,36,Male,Low Risk,Low Risk,13.33,82.33,8.67,9.0,Routine annual checkup
+PAT00151,46,Female,Medium Risk,Medium Risk,49.17,13.67,74.33,12.0,Schedule follow-up screening within 3 months
+PAT00152,73,Male,Low Risk,Low Risk,11.33,83.67,10.0,6.33,Routine annual checkup
+PAT00153,69,Male,High Risk,High Risk,79.33,13.33,14.67,72.0,Immediate clinical review + lifestyle intervention
+PAT00154,54,Male,Medium Risk,Medium Risk,43.83,23.67,65.0,11.33,Schedule follow-up screening within 3 months
+PAT00155,44,Male,High Risk,High Risk,71.17,24.33,9.0,66.67,Immediate clinical review + lifestyle intervention
+PAT00156,47,Female,Low Risk,Low Risk,14.33,80.67,10.0,9.33,Routine annual checkup
+PAT00157,34,Female,Medium Risk,Medium Risk,46.17,16.33,75.0,8.67,Schedule follow-up screening within 3 months
+PAT00158,23,Female,Medium Risk,Medium Risk,44.0,17.0,78.0,5.0,Schedule follow-up screening within 3 months
+PAT00159,46,Female,High Risk,High Risk,82.67,11.67,11.33,77.0,Immediate clinical review + lifestyle intervention
+PAT00160,45,Female,High Risk,High Risk,84.5,8.67,13.67,77.67,Immediate clinical review + lifestyle intervention
+PAT00161,38,Male,Medium Risk,Medium Risk,45.67,14.33,80.0,5.67,Schedule follow-up screening within 3 months
+PAT00162,36,Female,High Risk,High Risk,80.83,11.67,15.0,73.33,Immediate clinical review + lifestyle intervention
+PAT00163,62,Female,Low Risk,Low Risk,7.0,88.33,9.33,2.33,Routine annual checkup
+PAT00164,60,Female,Medium Risk,Medium Risk,42.83,15.67,83.0,1.33,Schedule follow-up screening within 3 months
+PAT00165,61,Male,Low Risk,Low Risk,12.0,83.33,9.33,7.33,Routine annual checkup
+PAT00166,69,Male,Low Risk,Low Risk,17.67,72.67,19.33,8.0,Routine annual checkup
+PAT00167,59,Female,Medium Risk,Medium Risk,43.5,21.33,70.33,8.33,Schedule follow-up screening within 3 months
+PAT00168,58,Male,Medium Risk,Medium Risk,43.5,20.33,72.33,7.33,Schedule follow-up screening within 3 months
+PAT00169,42,Male,Low Risk,Low Risk,9.83,86.0,8.33,5.67,Routine annual checkup
+PAT00170,71,Female,Low Risk,Low Risk,36.17,49.67,28.33,22.0,Routine annual checkup
+PAT00171,66,Male,High Risk,High Risk,75.83,19.33,9.67,71.0,Immediate clinical review + lifestyle intervention
+PAT00172,82,Male,Low Risk,Low Risk,13.0,78.67,16.67,4.67,Routine annual checkup
+PAT00173,88,Male,High Risk,Low Risk,23.17,71.0,11.67,17.33,Routine annual checkup
+PAT00174,62,Female,High Risk,High Risk,78.0,19.0,6.0,75.0,Immediate clinical review + lifestyle intervention
+PAT00175,67,Female,High Risk,Low Risk,36.83,45.33,35.67,19.0,Routine annual checkup
+PAT00176,53,Female,Low Risk,Low Risk,15.67,79.33,10.0,10.67,Routine annual checkup
+PAT00177,59,Male,Low Risk,Low Risk,14.83,80.67,9.0,10.33,Routine annual checkup
+PAT00178,80,Female,Low Risk,Low Risk,7.17,88.67,8.33,3.0,Routine annual checkup
+PAT00179,69,Male,Medium Risk,Medium Risk,43.33,19.0,75.33,5.67,Schedule follow-up screening within 3 months
+PAT00180,86,Male,Medium Risk,Medium Risk,42.5,19.33,76.33,4.33,Schedule follow-up screening within 3 months
+PAT00181,81,Male,Medium Risk,Medium Risk,41.33,21.0,75.33,3.67,Schedule follow-up screening within 3 months
+PAT00182,77,Female,Low Risk,Low Risk,8.5,85.33,12.33,2.33,Routine annual checkup
+PAT00183,52,Female,High Risk,Low Risk,31.17,53.67,30.33,16.0,Routine annual checkup
+PAT00184,35,Female,Medium Risk,Medium Risk,48.0,16.33,71.33,12.33,Schedule follow-up screening within 3 months
+PAT00185,67,Female,High Risk,High Risk,74.5,19.0,13.0,68.0,Immediate clinical review + lifestyle intervention
+PAT00186,29,Male,Low Risk,Low Risk,14.67,78.0,14.67,7.33,Routine annual checkup
+PAT00187,57,Female,Medium Risk,Medium Risk,49.17,25.33,51.0,23.67,Schedule follow-up screening within 3 months
+PAT00188,38,Male,Medium Risk,Medium Risk,41.0,25.33,67.33,7.33,Schedule follow-up screening within 3 months
+PAT00189,55,Female,Medium Risk,Medium Risk,47.0,15.67,74.67,9.67,Schedule follow-up screening within 3 months
+PAT00190,78,Female,Low Risk,Low Risk,10.33,86.0,7.33,6.67,Routine annual checkup
+PAT00191,82,Female,Low Risk,Low Risk,13.5,82.33,8.33,9.33,Routine annual checkup
+PAT00192,65,Male,Low Risk,Low Risk,28.17,55.33,33.0,11.67,Routine annual checkup
+PAT00193,22,Male,Medium Risk,Low Risk,36.17,44.67,38.33,17.0,Routine annual checkup
+PAT00194,84,Male,High Risk,High Risk,77.17,16.67,12.33,71.0,Immediate clinical review + lifestyle intervention
+PAT00195,27,Male,Low Risk,Low Risk,13.17,81.67,10.33,8.0,Routine annual checkup
+PAT00196,70,Male,Medium Risk,Medium Risk,46.33,15.0,77.33,7.67,Schedule follow-up screening within 3 months
+PAT00197,25,Female,Medium Risk,Medium Risk,45.0,18.67,72.67,8.67,Schedule follow-up screening within 3 months
+PAT00198,58,Male,Medium Risk,Medium Risk,43.17,17.67,78.33,4.0,Schedule follow-up screening within 3 months
+PAT00199,79,Male,Low Risk,Low Risk,12.67,82.33,10.0,7.67,Routine annual checkup
+PAT00200,47,Male,Medium Risk,Medium Risk,38.0,28.0,68.0,4.0,Schedule follow-up screening within 3 months
+PAT00201,73,Male,Low Risk,Low Risk,11.83,81.67,13.0,5.33,Routine annual checkup
+PAT00202,56,Female,Low Risk,Low Risk,12.5,79.0,17.0,4.0,Routine annual checkup
+PAT00203,28,Male,Medium Risk,Medium Risk,41.0,22.67,72.67,4.67,Schedule follow-up screening within 3 months
+PAT00204,75,Female,Medium Risk,Medium Risk,45.83,17.67,73.0,9.33,Schedule follow-up screening within 3 months
+PAT00205,78,Female,Low Risk,Low Risk,6.67,90.33,6.0,3.67,Routine annual checkup
+PAT00206,21,Female,Low Risk,Low Risk,13.67,79.33,14.0,6.67,Routine annual checkup
+PAT00207,80,Male,Low Risk,Low Risk,48.5,34.33,34.33,31.33,Routine annual checkup
+PAT00208,77,Female,Low Risk,Low Risk,35.67,49.0,30.67,20.33,Routine annual checkup
+PAT00209,79,Male,Medium Risk,Medium Risk,42.33,18.33,78.67,3.0,Schedule follow-up screening within 3 months
+PAT00210,59,Male,Low Risk,Low Risk,13.5,77.67,17.67,4.67,Routine annual checkup
+PAT00211,55,Male,Medium Risk,Medium Risk,45.0,18.67,72.67,8.67,Schedule follow-up screening within 3 months
+PAT00212,56,Male,Low Risk,Low Risk,6.67,91.33,4.0,4.67,Routine annual checkup
+PAT00213,37,Male,Low Risk,Low Risk,30.5,52.67,33.67,13.67,Routine annual checkup
+PAT00214,82,Female,Low Risk,Low Risk,13.33,80.0,13.33,6.67,Routine annual checkup
+PAT00215,41,Female,Low Risk,Low Risk,7.83,87.33,9.67,3.0,Routine annual checkup
+PAT00216,30,Male,Low Risk,Low Risk,11.67,83.67,9.33,7.0,Routine annual checkup
+PAT00217,77,Female,High Risk,High Risk,80.33,15.0,9.33,75.67,Immediate clinical review + lifestyle intervention
+PAT00218,76,Male,Low Risk,Low Risk,10.83,82.67,13.0,4.33,Routine annual checkup
+PAT00219,23,Female,High Risk,High Risk,77.17,18.0,9.67,72.33,Immediate clinical review + lifestyle intervention
+PAT00220,26,Female,Low Risk,Low Risk,15.33,79.33,10.67,10.0,Routine annual checkup
+PAT00221,80,Female,High Risk,Low Risk,31.17,53.0,31.67,15.33,Routine annual checkup
+PAT00222,73,Female,Medium Risk,Medium Risk,48.5,15.0,73.0,12.0,Schedule follow-up screening within 3 months
+PAT00223,87,Female,Low Risk,Low Risk,10.33,86.0,7.33,6.67,Routine annual checkup
+PAT00224,20,Male,Low Risk,Low Risk,13.67,77.67,17.33,5.0,Routine annual checkup
+PAT00225,74,Male,Medium Risk,Low Risk,16.5,71.0,25.0,4.0,Routine annual checkup
+PAT00226,22,Female,Low Risk,Low Risk,39.17,43.67,34.33,22.0,Routine annual checkup
+PAT00227,57,Male,Low Risk,Low Risk,15.5,79.0,11.0,10.0,Routine annual checkup
+PAT00228,20,Female,Low Risk,Low Risk,21.83,71.0,14.33,14.67,Routine annual checkup
+PAT00229,57,Male,Medium Risk,Low Risk,28.5,59.67,23.67,16.67,Routine annual checkup
+PAT00230,48,Female,Low Risk,Medium Risk,48.17,31.67,40.33,28.0,Schedule follow-up screening within 3 months
+PAT00231,24,Female,Low Risk,Low Risk,11.0,82.33,13.33,4.33,Routine annual checkup
+PAT00232,40,Female,Medium Risk,Medium Risk,43.0,22.33,69.33,8.33,Schedule follow-up screening within 3 months
+PAT00233,86,Male,Low Risk,Low Risk,9.17,86.33,9.0,4.67,Routine annual checkup
+PAT00234,66,Male,Low Risk,Low Risk,28.0,56.0,32.0,12.0,Routine annual checkup
+PAT00235,54,Female,Low Risk,Low Risk,33.5,48.33,36.33,15.33,Routine annual checkup
+PAT00236,87,Female,Medium Risk,Medium Risk,40.17,21.33,77.0,1.67,Schedule follow-up screening within 3 months
+PAT00237,88,Male,Medium Risk,Medium Risk,42.17,21.67,72.33,6.0,Schedule follow-up screening within 3 months
+PAT00238,20,Male,Low Risk,Low Risk,14.17,78.33,15.0,6.67,Routine annual checkup
+PAT00239,87,Male,Medium Risk,Medium Risk,40.5,24.67,69.67,5.67,Schedule follow-up screening within 3 months
+PAT00240,31,Male,Low Risk,Low Risk,10.67,82.33,14.0,3.67,Routine annual checkup
+PAT00241,79,Male,High Risk,High Risk,75.83,16.33,15.67,68.0,Immediate clinical review + lifestyle intervention
+PAT00242,46,Female,High Risk,High Risk,80.0,12.67,14.67,72.67,Immediate clinical review + lifestyle intervention
+PAT00243,75,Male,Medium Risk,Medium Risk,44.17,18.33,75.0,6.67,Schedule follow-up screening within 3 months
+PAT00244,42,Female,Low Risk,Low Risk,8.67,86.67,9.33,4.0,Routine annual checkup
+PAT00245,44,Female,Medium Risk,Medium Risk,39.5,25.0,71.0,4.0,Schedule follow-up screening within 3 months
+PAT00246,40,Male,Low Risk,Low Risk,20.17,75.0,9.67,15.33,Routine annual checkup
+PAT00247,80,Male,Low Risk,Low Risk,15.5,79.0,11.0,10.0,Routine annual checkup
+PAT00248,82,Female,Low Risk,Low Risk,16.0,77.67,12.67,9.67,Routine annual checkup
+PAT00249,71,Male,Low Risk,Low Risk,10.0,84.0,12.0,4.0,Routine annual checkup
+PAT00250,44,Female,Medium Risk,Medium Risk,43.33,17.67,78.0,4.33,Schedule follow-up screening within 3 months
+PAT00251,74,Male,Medium Risk,Low Risk,23.0,67.67,18.67,13.67,Routine annual checkup
+PAT00252,65,Male,High Risk,High Risk,73.83,17.67,17.0,65.33,Immediate clinical review + lifestyle intervention
+PAT00253,51,Male,Low Risk,Low Risk,10.83,86.33,5.67,8.0,Routine annual checkup
+PAT00254,74,Female,Low Risk,Low Risk,16.17,79.67,8.33,12.0,Routine annual checkup
+PAT00255,24,Male,Medium Risk,Medium Risk,43.33,20.67,72.0,7.33,Schedule follow-up screening within 3 months
+PAT00256,55,Female,Medium Risk,Medium Risk,45.0,13.33,83.33,3.33,Schedule follow-up screening within 3 months
+PAT00257,68,Male,Low Risk,Low Risk,5.83,90.33,7.67,2.0,Routine annual checkup
+PAT00258,77,Female,High Risk,High Risk,75.0,18.67,12.67,68.67,Immediate clinical review + lifestyle intervention
+PAT00259,58,Male,Low Risk,Low Risk,10.5,82.0,15.0,3.0,Routine annual checkup
+PAT00260,80,Female,High Risk,High Risk,68.17,27.33,9.0,63.67,Immediate clinical review + lifestyle intervention
+PAT00261,28,Female,Low Risk,Low Risk,9.83,84.0,12.33,3.67,Routine annual checkup
+PAT00262,25,Female,Medium Risk,Medium Risk,45.17,19.0,71.67,9.33,Schedule follow-up screening within 3 months
+PAT00263,54,Female,Medium Risk,Medium Risk,46.17,17.67,72.33,10.0,Schedule follow-up screening within 3 months
+PAT00264,58,Female,Medium Risk,Medium Risk,44.33,13.67,84.0,2.33,Schedule follow-up screening within 3 months
+PAT00265,41,Female,High Risk,High Risk,75.0,16.67,16.67,66.67,Immediate clinical review + lifestyle intervention
+PAT00266,60,Male,Medium Risk,Low Risk,29.5,55.33,30.33,14.33,Routine annual checkup
+PAT00267,24,Female,High Risk,High Risk,80.5,13.0,13.0,74.0,Immediate clinical review + lifestyle intervention
+PAT00268,61,Female,Low Risk,Low Risk,10.17,81.67,16.33,2.0,Routine annual checkup
+PAT00269,86,Female,Medium Risk,Medium Risk,45.33,13.67,82.0,4.33,Schedule follow-up screening within 3 months
+PAT00270,49,Male,Low Risk,Low Risk,11.33,85.0,7.33,7.67,Routine annual checkup
+PAT00271,76,Male,Medium Risk,Medium Risk,48.33,15.0,73.33,11.67,Schedule follow-up screening within 3 months
+PAT00272,48,Male,Low Risk,Low Risk,29.5,56.67,27.67,15.67,Routine annual checkup
+PAT00273,56,Female,Low Risk,Low Risk,13.83,78.33,15.67,6.0,Routine annual checkup
+PAT00274,32,Male,High Risk,High Risk,77.5,19.0,7.0,74.0,Immediate clinical review + lifestyle intervention
+PAT00275,51,Male,Medium Risk,Low Risk,31.83,50.33,35.67,14.0,Routine annual checkup
+PAT00276,65,Female,Medium Risk,Medium Risk,39.5,26.67,67.67,5.67,Schedule follow-up screening within 3 months
+PAT00277,42,Female,High Risk,High Risk,85.33,7.0,15.33,77.67,Immediate clinical review + lifestyle intervention
+PAT00278,64,Male,Low Risk,Low Risk,11.83,81.0,14.33,4.67,Routine annual checkup
+PAT00279,36,Female,Low Risk,Low Risk,19.0,74.67,12.67,12.67,Routine annual checkup
+PAT00280,85,Female,Low Risk,Low Risk,11.5,82.67,11.67,5.67,Routine annual checkup
+PAT00281,25,Female,Low Risk,Low Risk,9.33,86.33,8.67,5.0,Routine annual checkup
+PAT00282,37,Female,Low Risk,Low Risk,16.0,72.67,22.67,4.67,Routine annual checkup
+PAT00283,41,Male,Low Risk,Low Risk,14.0,80.33,11.33,8.33,Routine annual checkup
+PAT00284,52,Female,Low Risk,Low Risk,9.67,85.0,10.67,4.33,Routine annual checkup
+PAT00285,49,Male,Medium Risk,Low Risk,37.17,52.67,20.33,27.0,Routine annual checkup
+PAT00286,51,Male,High Risk,Low Risk,48.0,37.33,29.33,33.33,Routine annual checkup
+PAT00287,61,Male,Medium Risk,Low Risk,45.17,37.0,35.67,27.33,Routine annual checkup
+PAT00288,29,Male,Low Risk,Medium Risk,39.67,38.67,43.33,18.0,Schedule follow-up screening within 3 months
+PAT00289,55,Female,Medium Risk,Medium Risk,41.0,23.0,72.0,5.0,Schedule follow-up screening within 3 months
+PAT00290,53,Female,High Risk,High Risk,70.67,25.0,8.67,66.33,Immediate clinical review + lifestyle intervention
+PAT00291,47,Female,Medium Risk,Medium Risk,44.67,17.33,76.0,6.67,Schedule follow-up screening within 3 months
+PAT00292,30,Male,High Risk,High Risk,76.33,20.0,7.33,72.67,Immediate clinical review + lifestyle intervention
+PAT00293,58,Male,Low Risk,Low Risk,12.17,83.0,9.67,7.33,Routine annual checkup
+PAT00294,66,Male,High Risk,High Risk,76.67,17.33,12.0,70.67,Immediate clinical review + lifestyle intervention
+PAT00295,38,Female,Low Risk,Low Risk,15.0,82.0,6.0,12.0,Routine annual checkup
+PAT00296,34,Male,Low Risk,Low Risk,16.83,78.67,9.0,12.33,Routine annual checkup
+PAT00297,47,Female,High Risk,High Risk,76.0,19.0,10.0,71.0,Immediate clinical review + lifestyle intervention
+PAT00298,43,Female,Low Risk,Low Risk,22.83,64.33,25.67,10.0,Routine annual checkup
+PAT00299,28,Female,Low Risk,Low Risk,17.83,76.33,11.67,12.0,Routine annual checkup
+PAT00300,66,Female,Medium Risk,Medium Risk,34.83,36.67,57.0,6.33,Schedule follow-up screening within 3 months
+PAT00301,52,Male,High Risk,High Risk,76.17,21.33,5.0,73.67,Immediate clinical review + lifestyle intervention
+PAT00302,81,Female,Medium Risk,Low Risk,32.83,53.0,28.33,18.67,Routine annual checkup
+PAT00303,38,Male,Low Risk,Low Risk,7.5,89.67,5.67,4.67,Routine annual checkup
+PAT00304,86,Female,Low Risk,Low Risk,14.0,82.0,8.0,10.0,Routine annual checkup
+PAT00305,59,Male,High Risk,High Risk,70.0,23.0,14.0,63.0,Immediate clinical review + lifestyle intervention
+PAT00306,66,Male,Medium Risk,Low Risk,41.83,41.0,34.33,24.67,Routine annual checkup
+PAT00307,84,Female,Medium Risk,Medium Risk,36.83,32.33,61.67,6.0,Schedule follow-up screening within 3 months
+PAT00308,48,Female,Low Risk,Low Risk,15.33,78.33,12.67,9.0,Routine annual checkup
+PAT00309,69,Female,Medium Risk,Medium Risk,41.17,21.0,75.67,3.33,Schedule follow-up screening within 3 months
+PAT00310,32,Male,Low Risk,Low Risk,14.83,79.67,11.0,9.33,Routine annual checkup
+PAT00311,20,Female,Medium Risk,Medium Risk,48.17,15.0,73.67,11.33,Schedule follow-up screening within 3 months
+PAT00312,53,Female,Low Risk,Low Risk,13.0,82.67,8.67,8.67,Routine annual checkup
+PAT00313,67,Male,Low Risk,Low Risk,11.5,82.0,13.0,5.0,Routine annual checkup
+PAT00314,67,Female,Low Risk,Low Risk,9.33,84.67,12.0,3.33,Routine annual checkup
+PAT00315,68,Male,Medium Risk,Low Risk,20.83,70.33,17.67,12.0,Routine annual checkup
+PAT00316,83,Female,Low Risk,Low Risk,14.5,81.33,8.33,10.33,Routine annual checkup
+PAT00317,80,Male,Medium Risk,Medium Risk,42.5,21.67,71.67,6.67,Schedule follow-up screening within 3 months
+PAT00318,48,Male,Medium Risk,Medium Risk,45.0,16.0,78.0,6.0,Schedule follow-up screening within 3 months
+PAT00319,58,Female,Low Risk,Low Risk,13.0,79.33,15.33,5.33,Routine annual checkup
+PAT00320,45,Male,Low Risk,Low Risk,10.83,83.67,11.0,5.33,Routine annual checkup
+PAT00321,36,Female,Low Risk,Low Risk,16.33,81.0,5.33,13.67,Routine annual checkup
+PAT00322,32,Female,Medium Risk,Medium Risk,47.0,15.33,75.33,9.33,Schedule follow-up screening within 3 months
+PAT00323,88,Male,Low Risk,Low Risk,15.5,80.0,9.0,11.0,Routine annual checkup
+PAT00324,45,Female,Low Risk,Low Risk,20.0,71.33,17.33,11.33,Routine annual checkup
+PAT00325,68,Male,Low Risk,Low Risk,23.0,61.67,30.67,7.67,Routine annual checkup
+PAT00326,86,Male,Low Risk,Low Risk,5.67,91.0,6.67,2.33,Routine annual checkup
+PAT00327,26,Male,Low Risk,Low Risk,26.5,62.0,23.0,15.0,Routine annual checkup
+PAT00328,77,Male,Medium Risk,Medium Risk,44.17,18.0,75.67,6.33,Schedule follow-up screening within 3 months
+PAT00329,68,Male,Low Risk,Low Risk,9.5,84.67,11.67,3.67,Routine annual checkup
+PAT00330,72,Male,Low Risk,Low Risk,14.33,81.33,8.67,10.0,Routine annual checkup
+PAT00331,84,Male,Low Risk,Low Risk,15.67,78.33,12.0,9.67,Routine annual checkup
+PAT00332,81,Male,Medium Risk,Medium Risk,43.67,16.33,80.0,3.67,Schedule follow-up screening within 3 months
+PAT00333,36,Female,High Risk,High Risk,73.83,20.33,11.67,68.0,Immediate clinical review + lifestyle intervention
+PAT00334,62,Female,High Risk,High Risk,78.17,13.33,17.0,69.67,Immediate clinical review + lifestyle intervention
+PAT00335,44,Male,Low Risk,Low Risk,14.67,81.67,7.33,11.0,Routine annual checkup
+PAT00336,22,Female,Low Risk,Low Risk,9.83,85.33,9.67,5.0,Routine annual checkup
+PAT00337,48,Female,High Risk,Low Risk,32.67,48.0,38.67,13.33,Routine annual checkup
+PAT00338,51,Female,Low Risk,Low Risk,7.5,89.0,7.0,4.0,Routine annual checkup
+PAT00339,45,Female,Low Risk,Low Risk,17.17,72.67,20.33,7.0,Routine annual checkup
+PAT00340,35,Female,Low Risk,Low Risk,15.33,78.0,13.33,8.67,Routine annual checkup
+PAT00341,44,Female,Medium Risk,Medium Risk,48.5,13.33,76.33,10.33,Schedule follow-up screening within 3 months
+PAT00342,73,Male,Low Risk,Medium Risk,49.5,33.33,34.33,32.33,Schedule follow-up screening within 3 months
+PAT00343,47,Female,High Risk,High Risk,78.0,14.67,14.67,70.67,Immediate clinical review + lifestyle intervention
+PAT00344,75,Female,Low Risk,Low Risk,37.17,50.33,25.0,24.67,Routine annual checkup
+PAT00345,84,Female,Medium Risk,Medium Risk,45.67,14.67,79.33,6.0,Schedule follow-up screening within 3 months
+PAT00346,60,Female,Medium Risk,Medium Risk,40.83,24.67,69.0,6.33,Schedule follow-up screening within 3 months
+PAT00347,70,Male,Low Risk,Low Risk,11.5,80.0,17.0,3.0,Routine annual checkup
+PAT00348,48,Male,Medium Risk,Low Risk,24.83,66.67,17.0,16.33,Routine annual checkup
+PAT00349,38,Male,High Risk,High Risk,69.5,23.0,15.0,62.0,Immediate clinical review + lifestyle intervention
+PAT00350,85,Male,Low Risk,Low Risk,9.33,86.0,9.33,4.67,Routine annual checkup
+PAT00351,60,Female,Low Risk,Low Risk,13.33,80.0,13.33,6.67,Routine annual checkup
+PAT00352,64,Male,Low Risk,Low Risk,11.83,83.33,9.67,7.0,Routine annual checkup
+PAT00353,34,Male,Medium Risk,Low Risk,38.33,51.0,21.33,27.67,Routine annual checkup
+PAT00354,22,Male,High Risk,Medium Risk,34.33,41.0,49.33,9.67,Schedule follow-up screening within 3 months
+PAT00355,30,Male,Medium Risk,Medium Risk,40.83,24.33,69.67,6.0,Schedule follow-up screening within 3 months
+PAT00356,72,Female,High Risk,High Risk,80.5,11.0,17.0,72.0,Immediate clinical review + lifestyle intervention
+PAT00357,65,Male,Low Risk,Low Risk,25.67,61.33,26.0,12.67,Routine annual checkup
+PAT00358,49,Female,High Risk,High Risk,81.5,14.33,8.33,77.33,Immediate clinical review + lifestyle intervention
+PAT00359,76,Male,Medium Risk,Medium Risk,37.33,28.67,68.0,3.33,Schedule follow-up screening within 3 months
+PAT00360,37,Female,High Risk,High Risk,69.5,22.67,15.67,61.67,Immediate clinical review + lifestyle intervention
+PAT00361,70,Female,High Risk,High Risk,69.0,26.33,9.33,64.33,Immediate clinical review + lifestyle intervention
+PAT00362,67,Male,Low Risk,Low Risk,12.17,81.67,12.33,6.0,Routine annual checkup
+PAT00363,85,Male,Low Risk,Low Risk,13.67,80.67,11.33,8.0,Routine annual checkup
+PAT00364,27,Male,High Risk,Low Risk,34.17,50.0,31.67,18.33,Routine annual checkup
+PAT00365,41,Male,High Risk,High Risk,72.67,24.33,6.0,69.67,Immediate clinical review + lifestyle intervention
+PAT00366,25,Female,High Risk,Low Risk,35.0,54.0,22.0,24.0,Routine annual checkup
+PAT00367,76,Female,Low Risk,Low Risk,33.83,45.0,42.33,12.67,Routine annual checkup
+PAT00368,55,Male,Low Risk,Low Risk,12.83,78.67,17.0,4.33,Routine annual checkup
+PAT00369,76,Male,High Risk,High Risk,75.83,20.33,7.67,72.0,Immediate clinical review + lifestyle intervention
+PAT00370,68,Female,Medium Risk,Medium Risk,50.5,12.0,75.0,13.0,Schedule follow-up screening within 3 months
+PAT00371,64,Male,Low Risk,Low Risk,11.67,83.67,9.33,7.0,Routine annual checkup
+PAT00372,85,Female,Low Risk,Low Risk,14.83,80.67,9.0,10.33,Routine annual checkup
+PAT00373,64,Male,Low Risk,Low Risk,12.67,79.33,16.0,4.67,Routine annual checkup
+PAT00374,39,Female,Medium Risk,Medium Risk,36.17,30.0,67.67,2.33,Schedule follow-up screening within 3 months
+PAT00375,83,Female,High Risk,High Risk,78.0,18.0,8.0,74.0,Immediate clinical review + lifestyle intervention
+PAT00376,86,Female,Medium Risk,Medium Risk,45.83,15.33,77.67,7.0,Schedule follow-up screening within 3 months
+PAT00377,22,Female,Low Risk,Medium Risk,35.5,41.67,45.67,12.67,Schedule follow-up screening within 3 months
+PAT00378,73,Female,Low Risk,Low Risk,18.67,74.33,14.0,11.67,Routine annual checkup
+PAT00379,83,Male,Medium Risk,Medium Risk,45.33,19.33,70.67,10.0,Schedule follow-up screening within 3 months
+PAT00380,59,Female,Medium Risk,Medium Risk,45.5,12.67,83.67,3.67,Schedule follow-up screening within 3 months
+PAT00381,78,Male,Medium Risk,Medium Risk,44.83,16.33,77.67,6.0,Schedule follow-up screening within 3 months
+PAT00382,74,Female,Medium Risk,Medium Risk,47.83,15.33,73.67,11.0,Schedule follow-up screening within 3 months
+PAT00383,81,Female,Medium Risk,Medium Risk,38.33,27.67,68.0,4.33,Schedule follow-up screening within 3 months
+PAT00384,23,Male,Low Risk,Low Risk,10.5,83.0,13.0,4.0,Routine annual checkup
+PAT00385,79,Male,High Risk,High Risk,78.5,15.67,11.67,72.67,Immediate clinical review + lifestyle intervention
+PAT00386,49,Male,Medium Risk,Medium Risk,46.33,14.67,78.0,7.33,Schedule follow-up screening within 3 months
+PAT00387,21,Male,Low Risk,Low Risk,10.5,85.67,7.67,6.67,Routine annual checkup
+PAT00388,81,Female,High Risk,High Risk,71.67,24.33,8.0,67.67,Immediate clinical review + lifestyle intervention
+PAT00389,68,Male,High Risk,High Risk,80.17,11.33,17.0,71.67,Immediate clinical review + lifestyle intervention
+PAT00390,28,Female,Medium Risk,Medium Risk,42.5,19.67,75.67,4.67,Schedule follow-up screening within 3 months
+PAT00391,50,Male,Low Risk,Low Risk,16.17,76.33,15.0,8.67,Routine annual checkup
+PAT00392,80,Male,Low Risk,Low Risk,9.83,88.67,3.0,8.33,Routine annual checkup
+PAT00393,67,Female,High Risk,High Risk,67.83,24.67,15.0,60.33,Immediate clinical review + lifestyle intervention
+PAT00394,44,Female,Low Risk,Low Risk,15.33,74.33,20.67,5.0,Routine annual checkup
+PAT00395,55,Male,Medium Risk,Medium Risk,40.67,25.67,67.33,7.0,Schedule follow-up screening within 3 months
+PAT00396,27,Female,Low Risk,Low Risk,16.33,75.33,16.67,8.0,Routine annual checkup
+PAT00397,77,Female,Low Risk,Low Risk,13.5,80.67,11.67,7.67,Routine annual checkup
+PAT00398,64,Female,Low Risk,Low Risk,13.0,83.0,8.0,9.0,Routine annual checkup
+PAT00399,81,Female,Medium Risk,Medium Risk,41.67,18.0,80.67,1.33,Schedule follow-up screening within 3 months
+PAT00400,58,Female,Low Risk,Low Risk,9.67,85.0,10.67,4.33,Routine annual checkup
+PAT00401,77,Female,Low Risk,Low Risk,14.17,75.67,20.33,4.0,Routine annual checkup
+PAT00402,83,Female,Low Risk,Low Risk,10.83,80.67,17.0,2.33,Routine annual checkup
+PAT00403,63,Female,Low Risk,Low Risk,33.17,54.0,25.67,20.33,Routine annual checkup
+PAT00404,48,Male,Medium Risk,Medium Risk,48.67,17.67,67.33,15.0,Schedule follow-up screening within 3 months
+PAT00405,78,Female,Medium Risk,Medium Risk,44.67,15.0,80.67,4.33,Schedule follow-up screening within 3 months
+PAT00406,28,Male,High Risk,High Risk,82.33,11.33,12.67,76.0,Immediate clinical review + lifestyle intervention
+PAT00407,25,Female,Medium Risk,Medium Risk,50.17,12.0,75.67,12.33,Schedule follow-up screening within 3 months
+PAT00408,48,Female,Low Risk,Low Risk,39.5,51.0,19.0,30.0,Routine annual checkup
+PAT00409,77,Female,Low Risk,Low Risk,30.0,58.67,22.67,18.67,Routine annual checkup
+PAT00410,36,Female,Low Risk,Medium Risk,36.67,38.0,50.67,11.33,Schedule follow-up screening within 3 months
+PAT00411,35,Male,High Risk,High Risk,69.5,25.0,11.0,64.0,Immediate clinical review + lifestyle intervention
+PAT00412,22,Male,High Risk,High Risk,73.67,18.33,16.0,65.67,Immediate clinical review + lifestyle intervention
+PAT00413,40,Female,Low Risk,Medium Risk,41.17,32.67,52.33,15.0,Schedule follow-up screening within 3 months
+PAT00414,83,Male,Medium Risk,Medium Risk,45.0,19.0,72.0,9.0,Schedule follow-up screening within 3 months
+PAT00415,55,Female,High Risk,Low Risk,25.5,60.33,28.33,11.33,Routine annual checkup
+PAT00416,81,Female,Low Risk,Low Risk,23.0,72.0,10.0,18.0,Routine annual checkup
+PAT00417,61,Male,Low Risk,Low Risk,13.0,83.33,7.33,9.33,Routine annual checkup
+PAT00418,61,Male,Medium Risk,Medium Risk,43.0,21.33,71.33,7.33,Schedule follow-up screening within 3 months
+PAT00419,80,Female,Low Risk,Low Risk,18.17,76.0,11.67,12.33,Routine annual checkup
+PAT00420,32,Female,Low Risk,Low Risk,14.5,76.33,18.33,5.33,Routine annual checkup
+PAT00421,30,Male,Low Risk,Low Risk,14.0,81.33,9.33,9.33,Routine annual checkup
+PAT00422,73,Female,Low Risk,Low Risk,14.33,78.0,15.33,6.67,Routine annual checkup
+PAT00423,35,Male,High Risk,High Risk,68.5,27.0,9.0,64.0,Immediate clinical review + lifestyle intervention
+PAT00424,27,Female,Low Risk,Low Risk,10.33,82.33,14.67,3.0,Routine annual checkup
+PAT00425,78,Female,High Risk,Low Risk,31.0,56.33,25.33,18.33,Routine annual checkup
+PAT00426,76,Male,High Risk,Low Risk,32.5,52.67,29.67,17.67,Routine annual checkup
+PAT00427,59,Male,Low Risk,Low Risk,10.67,87.0,4.67,8.33,Routine annual checkup
+PAT00428,78,Male,Low Risk,Low Risk,12.0,83.33,9.33,7.33,Routine annual checkup
+PAT00429,21,Female,Low Risk,Low Risk,49.17,34.0,33.67,32.33,Routine annual checkup
+PAT00430,29,Female,Low Risk,Low Risk,13.33,82.33,8.67,9.0,Routine annual checkup
+PAT00431,63,Female,Low Risk,Low Risk,10.67,83.33,12.0,4.67,Routine annual checkup
+PAT00432,30,Female,Low Risk,Low Risk,17.17,75.33,15.0,9.67,Routine annual checkup
+PAT00433,21,Male,Medium Risk,Medium Risk,39.67,24.33,72.0,3.67,Schedule follow-up screening within 3 months
+PAT00434,69,Female,Medium Risk,Medium Risk,48.33,15.0,73.33,11.67,Schedule follow-up screening within 3 months
+PAT00435,31,Female,High Risk,High Risk,75.5,15.0,19.0,66.0,Immediate clinical review + lifestyle intervention
+PAT00436,42,Female,Medium Risk,Medium Risk,41.17,22.33,73.0,4.67,Schedule follow-up screening within 3 months
+PAT00437,37,Male,Medium Risk,Medium Risk,43.83,19.67,73.0,7.33,Schedule follow-up screening within 3 months
+PAT00438,81,Female,Low Risk,Low Risk,18.5,72.33,18.33,9.33,Routine annual checkup
+PAT00439,81,Female,Low Risk,Low Risk,9.0,86.0,10.0,4.0,Routine annual checkup
+PAT00440,57,Male,Low Risk,Low Risk,30.83,58.0,22.33,19.67,Routine annual checkup
+PAT00441,86,Female,Low Risk,Low Risk,15.33,77.67,14.0,8.33,Routine annual checkup
+PAT00442,57,Female,Low Risk,Low Risk,8.17,86.33,11.0,2.67,Routine annual checkup
+PAT00443,86,Male,Medium Risk,Medium Risk,42.17,20.0,75.67,4.33,Schedule follow-up screening within 3 months
+PAT00444,80,Female,High Risk,Low Risk,18.0,70.0,24.0,6.0,Routine annual checkup
+PAT00445,20,Female,Medium Risk,Medium Risk,40.67,24.33,70.0,5.67,Schedule follow-up screening within 3 months
+PAT00446,64,Female,Low Risk,Low Risk,11.33,82.33,12.67,5.0,Routine annual checkup
+PAT00447,47,Male,Medium Risk,Medium Risk,39.5,26.33,68.33,5.33,Schedule follow-up screening within 3 months
+PAT00448,40,Female,Low Risk,Low Risk,15.0,75.0,20.0,5.0,Routine annual checkup
+PAT00449,32,Female,Low Risk,Low Risk,48.5,37.0,29.0,34.0,Routine annual checkup
+PAT00450,46,Male,High Risk,Low Risk,37.67,52.0,20.67,27.33,Routine annual checkup
+PAT00451,26,Male,Medium Risk,Medium Risk,46.17,16.33,75.0,8.67,Schedule follow-up screening within 3 months
+PAT00452,41,Female,Medium Risk,Medium Risk,46.67,17.33,72.0,10.67,Schedule follow-up screening within 3 months
+PAT00453,72,Female,Medium Risk,Medium Risk,44.67,14.0,82.67,3.33,Schedule follow-up screening within 3 months
+PAT00454,23,Female,Low Risk,Low Risk,13.17,79.67,14.33,6.0,Routine annual checkup
+PAT00455,42,Female,Low Risk,Low Risk,40.83,40.67,37.0,22.33,Routine annual checkup
+PAT00456,89,Male,Low Risk,Low Risk,21.83,74.67,7.0,18.33,Routine annual checkup
+PAT00457,52,Female,Low Risk,Low Risk,13.83,76.0,20.33,3.67,Routine annual checkup
+PAT00458,47,Male,Low Risk,Low Risk,27.5,64.33,16.33,19.33,Routine annual checkup
+PAT00459,27,Male,Low Risk,Low Risk,14.0,76.67,18.67,4.67,Routine annual checkup
+PAT00460,20,Female,Medium Risk,Medium Risk,40.0,24.67,70.67,4.67,Schedule follow-up screening within 3 months
+PAT00461,56,Female,Low Risk,Low Risk,16.5,81.0,5.0,14.0,Routine annual checkup
+PAT00462,82,Male,Medium Risk,Medium Risk,47.83,16.0,72.33,11.67,Schedule follow-up screening within 3 months
+PAT00463,41,Male,Medium Risk,Low Risk,28.67,51.33,40.0,8.67,Routine annual checkup
+PAT00464,89,Female,High Risk,High Risk,85.0,10.67,8.67,80.67,Immediate clinical review + lifestyle intervention
+PAT00465,40,Male,Low Risk,Low Risk,13.0,83.0,8.0,9.0,Routine annual checkup
+PAT00466,54,Female,Medium Risk,Medium Risk,44.33,18.0,75.33,6.67,Schedule follow-up screening within 3 months
+PAT00467,24,Female,Medium Risk,Medium Risk,47.83,13.0,78.33,8.67,Schedule follow-up screening within 3 months
+PAT00468,79,Male,Low Risk,Low Risk,13.67,79.67,13.33,7.0,Routine annual checkup
+PAT00469,65,Male,Low Risk,Low Risk,12.67,80.33,14.0,5.67,Routine annual checkup
+PAT00470,69,Female,Low Risk,Low Risk,19.5,78.0,5.0,17.0,Routine annual checkup
+PAT00471,67,Male,Low Risk,Low Risk,7.83,86.67,11.0,2.33,Routine annual checkup
+PAT00472,25,Female,Low Risk,Low Risk,12.83,79.0,16.33,4.67,Routine annual checkup
+PAT00473,75,Female,Low Risk,Low Risk,20.83,74.0,10.33,15.67,Routine annual checkup
+PAT00474,78,Female,Medium Risk,Medium Risk,51.0,10.0,78.0,12.0,Schedule follow-up screening within 3 months
+PAT00475,48,Male,Low Risk,Low Risk,15.5,74.33,20.33,5.33,Routine annual checkup
+PAT00476,37,Female,Low Risk,Low Risk,14.67,80.0,10.67,9.33,Routine annual checkup
+PAT00477,21,Female,Medium Risk,Low Risk,33.67,47.0,38.67,14.33,Routine annual checkup
+PAT00478,27,Female,Medium Risk,Low Risk,46.17,38.0,31.67,30.33,Routine annual checkup
+PAT00479,73,Female,Medium Risk,Medium Risk,52.67,10.0,74.67,15.33,Schedule follow-up screening within 3 months
+PAT00480,57,Female,Low Risk,Low Risk,15.83,76.67,15.0,8.33,Routine annual checkup
+PAT00481,67,Female,Medium Risk,Medium Risk,43.0,19.33,75.33,5.33,Schedule follow-up screening within 3 months
+PAT00482,46,Female,Low Risk,Low Risk,17.83,75.33,13.67,11.0,Routine annual checkup
+PAT00483,39,Female,Low Risk,Low Risk,11.83,82.0,12.33,5.67,Routine annual checkup
+PAT00484,31,Female,Low Risk,Low Risk,18.17,74.33,15.0,10.67,Routine annual checkup
+PAT00485,62,Female,Low Risk,Low Risk,12.67,81.67,11.33,7.0,Routine annual checkup
+PAT00486,80,Female,Medium Risk,Medium Risk,42.83,19.0,76.33,4.67,Schedule follow-up screening within 3 months
+PAT00487,50,Male,High Risk,High Risk,77.5,18.0,9.0,73.0,Immediate clinical review + lifestyle intervention
+PAT00488,80,Female,High Risk,High Risk,78.5,14.0,15.0,71.0,Immediate clinical review + lifestyle intervention
+PAT00489,86,Female,Low Risk,Low Risk,9.33,85.33,10.67,4.0,Routine annual checkup
+PAT00490,54,Female,Medium Risk,Medium Risk,42.5,19.67,75.67,4.67,Schedule follow-up screening within 3 months
+PAT00491,34,Male,High Risk,High Risk,70.83,23.0,12.33,64.67,Immediate clinical review + lifestyle intervention
+PAT00492,35,Female,Medium Risk,Medium Risk,44.83,20.0,70.33,9.67,Schedule follow-up screening within 3 months
+PAT00493,32,Male,Low Risk,Low Risk,31.33,51.33,34.67,14.0,Routine annual checkup
+PAT00494,54,Female,Medium Risk,Medium Risk,39.67,23.0,74.67,2.33,Schedule follow-up screening within 3 months
+PAT00495,78,Female,Low Risk,Low Risk,16.83,77.33,11.67,11.0,Routine annual checkup
+PAT00496,40,Male,Medium Risk,Medium Risk,45.17,17.0,75.67,7.33,Schedule follow-up screening within 3 months
+PAT00497,73,Female,Low Risk,Low Risk,11.17,81.0,15.67,3.33,Routine annual checkup
+PAT00498,49,Male,High Risk,High Risk,76.33,19.33,8.67,72.0,Immediate clinical review + lifestyle intervention
+PAT00499,67,Male,Low Risk,Low Risk,14.0,76.67,18.67,4.67,Routine annual checkup
+PAT00500,54,Female,Low Risk,Low Risk,10.5,86.33,6.33,7.33,Routine annual checkup
+PAT00501,57,Female,Medium Risk,Medium Risk,39.5,39.33,42.33,18.33,Schedule follow-up screening within 3 months
+PAT00502,50,Female,Low Risk,Low Risk,14.5,77.67,15.67,6.67,Routine annual checkup
+PAT00503,43,Female,Low Risk,Low Risk,46.33,39.0,29.33,31.67,Routine annual checkup
+PAT00504,68,Male,Low Risk,Low Risk,8.17,88.0,7.67,4.33,Routine annual checkup
+PAT00505,51,Male,Low Risk,Low Risk,33.5,55.67,21.67,22.67,Routine annual checkup
+PAT00506,74,Female,Medium Risk,Medium Risk,50.17,10.67,78.33,11.0,Schedule follow-up screening within 3 months
+PAT00507,77,Male,Low Risk,Low Risk,16.67,75.0,16.67,8.33,Routine annual checkup
+PAT00508,22,Male,Low Risk,Low Risk,10.67,85.33,8.0,6.67,Routine annual checkup
+PAT00509,88,Female,Low Risk,Low Risk,20.0,74.67,10.67,14.67,Routine annual checkup
+PAT00510,29,Male,Low Risk,Low Risk,13.0,78.33,17.33,4.33,Routine annual checkup
+PAT00511,44,Male,Medium Risk,Medium Risk,41.83,23.67,69.0,7.33,Schedule follow-up screening within 3 months
+PAT00512,87,Female,Low Risk,Low Risk,9.83,86.67,7.0,6.33,Routine annual checkup
+PAT00513,80,Male,Low Risk,Low Risk,16.67,81.33,4.0,14.67,Routine annual checkup
+PAT00514,48,Female,High Risk,High Risk,77.83,16.33,11.67,72.0,Immediate clinical review + lifestyle intervention
+PAT00515,38,Male,Low Risk,Low Risk,17.17,77.67,10.33,12.0,Routine annual checkup
+PAT00516,62,Female,Low Risk,Low Risk,36.17,43.33,41.0,15.67,Routine annual checkup
+PAT00517,85,Male,High Risk,High Risk,77.0,17.0,12.0,71.0,Immediate clinical review + lifestyle intervention
+PAT00518,80,Male,High Risk,Low Risk,44.17,44.0,23.67,32.33,Routine annual checkup
+PAT00519,62,Female,Low Risk,Low Risk,28.67,62.33,18.0,19.67,Routine annual checkup
+PAT00520,44,Female,High Risk,High Risk,75.5,18.33,12.33,69.33,Immediate clinical review + lifestyle intervention
+PAT00521,39,Female,High Risk,High Risk,75.17,21.67,6.33,72.0,Immediate clinical review + lifestyle intervention
+PAT00522,67,Female,Medium Risk,High Risk,57.17,27.0,31.67,41.33,Immediate clinical review + lifestyle intervention
+PAT00523,43,Male,High Risk,High Risk,74.33,21.67,8.0,70.33,Immediate clinical review + lifestyle intervention
+PAT00524,30,Male,Low Risk,Low Risk,14.33,78.0,15.33,6.67,Routine annual checkup
+PAT00525,74,Male,Medium Risk,Medium Risk,41.0,38.33,41.33,20.33,Schedule follow-up screening within 3 months
+PAT00526,47,Female,Low Risk,Low Risk,18.33,78.0,7.33,14.67,Routine annual checkup
+PAT00527,88,Male,Low Risk,Low Risk,16.17,80.33,7.0,12.67,Routine annual checkup
+PAT00528,82,Male,Low Risk,Low Risk,15.33,82.33,4.67,13.0,Routine annual checkup
+PAT00529,78,Female,Medium Risk,Medium Risk,40.67,24.0,70.67,5.33,Schedule follow-up screening within 3 months
+PAT00530,24,Female,Low Risk,Low Risk,25.5,61.67,25.67,12.67,Routine annual checkup
+PAT00531,70,Male,Medium Risk,Medium Risk,39.5,29.0,63.0,8.0,Schedule follow-up screening within 3 months
+PAT00532,40,Female,Medium Risk,Medium Risk,44.17,17.0,77.67,5.33,Schedule follow-up screening within 3 months
+PAT00533,31,Male,Low Risk,Low Risk,16.5,78.33,10.33,11.33,Routine annual checkup
+PAT00534,69,Male,Low Risk,Low Risk,36.5,46.0,35.0,19.0,Routine annual checkup
+PAT00535,23,Female,Low Risk,Low Risk,14.5,80.67,9.67,9.67,Routine annual checkup
+PAT00536,61,Male,Low Risk,Low Risk,9.17,87.33,7.0,5.67,Routine annual checkup
+PAT00537,57,Female,Low Risk,Low Risk,13.0,79.67,14.67,5.67,Routine annual checkup
+PAT00538,44,Female,Low Risk,Low Risk,23.17,60.67,32.33,7.0,Routine annual checkup
+PAT00539,33,Male,Low Risk,Low Risk,44.83,41.33,27.67,31.0,Routine annual checkup
+PAT00540,51,Male,High Risk,High Risk,73.67,22.33,8.0,69.67,Immediate clinical review + lifestyle intervention
+PAT00541,30,Male,Medium Risk,Low Risk,37.67,50.0,24.67,25.33,Routine annual checkup
+PAT00542,80,Female,Low Risk,Low Risk,13.33,78.33,16.67,5.0,Routine annual checkup
+PAT00543,37,Male,Low Risk,Low Risk,17.17,79.67,6.33,14.0,Routine annual checkup
+PAT00544,46,Female,High Risk,High Risk,72.5,22.67,9.67,67.67,Immediate clinical review + lifestyle intervention
+PAT00545,74,Female,Medium Risk,Medium Risk,46.83,14.33,77.67,8.0,Schedule follow-up screening within 3 months
+PAT00546,73,Male,Medium Risk,Medium Risk,44.67,13.0,84.67,2.33,Schedule follow-up screening within 3 months
+PAT00547,40,Female,Low Risk,Low Risk,13.0,81.67,10.67,7.67,Routine annual checkup
+PAT00548,63,Male,Low Risk,Low Risk,6.83,89.0,8.33,2.67,Routine annual checkup
+PAT00549,24,Male,Low Risk,Low Risk,35.5,47.33,34.33,18.33,Routine annual checkup
+PAT00550,60,Male,Low Risk,Medium Risk,39.5,36.67,47.67,15.67,Schedule follow-up screening within 3 months
+PAT00551,78,Male,Low Risk,Low Risk,17.83,76.0,12.33,11.67,Routine annual checkup
+PAT00552,73,Male,Medium Risk,Medium Risk,43.17,19.67,74.33,6.0,Schedule follow-up screening within 3 months
+PAT00553,41,Male,Medium Risk,Medium Risk,44.17,15.33,81.0,3.67,Schedule follow-up screening within 3 months
+PAT00554,84,Male,Medium Risk,Medium Risk,39.67,23.33,74.0,2.67,Schedule follow-up screening within 3 months
+PAT00555,83,Female,Low Risk,Low Risk,14.5,78.67,13.67,7.67,Routine annual checkup
+PAT00556,23,Male,High Risk,High Risk,75.5,18.67,11.67,69.67,Immediate clinical review + lifestyle intervention
+PAT00557,84,Female,Low Risk,Low Risk,33.0,49.33,35.33,15.33,Routine annual checkup
+PAT00558,34,Female,Low Risk,Low Risk,13.5,81.67,9.67,8.67,Routine annual checkup
+PAT00559,41,Female,Medium Risk,Medium Risk,44.83,19.67,71.0,9.33,Schedule follow-up screening within 3 months
+PAT00560,66,Male,Low Risk,Low Risk,8.5,87.33,8.33,4.33,Routine annual checkup
+PAT00561,65,Female,Low Risk,Low Risk,38.67,42.0,38.67,19.33,Routine annual checkup
+PAT00562,33,Female,Medium Risk,Medium Risk,47.83,13.33,77.67,9.0,Schedule follow-up screening within 3 months
+PAT00563,69,Male,Medium Risk,Medium Risk,44.5,18.0,75.0,7.0,Schedule follow-up screening within 3 months
+PAT00564,39,Male,Low Risk,Low Risk,15.83,79.33,9.67,11.0,Routine annual checkup
+PAT00565,69,Female,Medium Risk,Low Risk,34.0,49.33,33.33,17.33,Routine annual checkup
+PAT00566,52,Male,High Risk,Low Risk,38.33,52.33,18.67,29.0,Routine annual checkup
+PAT00567,78,Male,Low Risk,Low Risk,10.0,87.33,5.33,7.33,Routine annual checkup
+PAT00568,62,Male,Low Risk,Low Risk,7.5,87.0,11.0,2.0,Routine annual checkup
+PAT00569,31,Male,Medium Risk,Low Risk,31.5,53.0,31.0,16.0,Routine annual checkup
+PAT00570,59,Female,Low Risk,Low Risk,13.67,76.0,20.67,3.33,Routine annual checkup
+PAT00571,39,Male,Low Risk,Low Risk,9.33,87.67,6.0,6.33,Routine annual checkup
+PAT00572,57,Male,High Risk,High Risk,74.33,17.33,16.67,66.0,Immediate clinical review + lifestyle intervention
+PAT00573,22,Male,Low Risk,Low Risk,13.0,79.67,14.67,5.67,Routine annual checkup
+PAT00574,47,Female,Medium Risk,Medium Risk,38.17,40.0,43.67,16.33,Schedule follow-up screening within 3 months
+PAT00575,75,Female,Medium Risk,Medium Risk,44.33,15.33,80.67,4.0,Schedule follow-up screening within 3 months
+PAT00576,32,Male,Low Risk,Low Risk,13.0,79.0,16.0,5.0,Routine annual checkup
+PAT00577,85,Male,Low Risk,Low Risk,9.5,87.0,7.0,6.0,Routine annual checkup
+PAT00578,56,Female,High Risk,High Risk,81.0,12.67,12.67,74.67,Immediate clinical review + lifestyle intervention
+PAT00579,68,Male,Low Risk,Low Risk,11.5,84.0,9.0,7.0,Routine annual checkup
+PAT00580,85,Male,Low Risk,Low Risk,9.67,86.0,8.67,5.33,Routine annual checkup
+PAT00581,55,Female,Low Risk,Low Risk,7.5,87.67,9.67,2.67,Routine annual checkup
+PAT00582,73,Male,Medium Risk,Medium Risk,39.33,22.67,76.0,1.33,Schedule follow-up screening within 3 months
+PAT00583,45,Male,Low Risk,Low Risk,10.33,84.33,10.67,5.0,Routine annual checkup
+PAT00584,59,Female,Medium Risk,Medium Risk,48.33,16.0,71.33,12.67,Schedule follow-up screening within 3 months
+PAT00585,62,Female,High Risk,High Risk,78.5,19.33,4.33,76.33,Immediate clinical review + lifestyle intervention
+PAT00586,41,Male,Low Risk,Low Risk,12.0,83.0,10.0,7.0,Routine annual checkup
+PAT00587,39,Female,Low Risk,Low Risk,12.33,77.0,21.33,1.67,Routine annual checkup
+PAT00588,27,Male,Low Risk,Low Risk,11.67,83.0,10.67,6.33,Routine annual checkup
+PAT00589,48,Male,Medium Risk,Low Risk,43.33,44.67,24.0,31.33,Routine annual checkup
+PAT00590,59,Male,High Risk,Low Risk,32.67,56.33,22.0,21.67,Routine annual checkup
+PAT00591,49,Female,Low Risk,Low Risk,17.67,72.67,19.33,8.0,Routine annual checkup
+PAT00592,74,Female,Medium Risk,Medium Risk,46.83,10.67,85.0,4.33,Schedule follow-up screening within 3 months
+PAT00593,35,Male,Low Risk,Low Risk,29.67,57.33,26.0,16.67,Routine annual checkup
+PAT00594,65,Male,Medium Risk,Medium Risk,42.17,21.67,72.33,6.0,Schedule follow-up screening within 3 months
+PAT00595,81,Female,Low Risk,Low Risk,20.17,76.0,7.67,16.33,Routine annual checkup
+PAT00596,26,Female,Low Risk,Medium Risk,38.0,32.67,58.67,8.67,Schedule follow-up screening within 3 months
+PAT00597,64,Female,Low Risk,Low Risk,11.0,81.0,16.0,3.0,Routine annual checkup
+PAT00598,78,Male,Low Risk,Low Risk,17.67,74.0,16.67,9.33,Routine annual checkup
+PAT00599,75,Female,Low Risk,Low Risk,14.0,78.0,16.0,6.0,Routine annual checkup
+PAT00600,67,Female,High Risk,High Risk,83.67,9.67,13.33,77.0,Immediate clinical review + lifestyle intervention
+PAT00601,46,Male,High Risk,High Risk,75.33,18.67,12.0,69.33,Immediate clinical review + lifestyle intervention
+PAT00602,72,Male,Low Risk,Low Risk,16.67,72.33,22.0,5.67,Routine annual checkup
+PAT00603,54,Male,Medium Risk,Medium Risk,43.17,19.67,74.33,6.0,Schedule follow-up screening within 3 months
+PAT00604,70,Female,Low Risk,Low Risk,8.67,86.33,10.0,3.67,Routine annual checkup
+PAT00605,56,Male,Medium Risk,Low Risk,33.83,56.0,20.33,23.67,Routine annual checkup
+PAT00606,76,Male,Medium Risk,Medium Risk,44.17,19.0,73.67,7.33,Schedule follow-up screening within 3 months
+PAT00607,27,Male,Low Risk,Low Risk,15.17,75.33,19.0,5.67,Routine annual checkup
+PAT00608,39,Male,Low Risk,Low Risk,10.33,83.67,12.0,4.33,Routine annual checkup
+PAT00609,72,Female,Low Risk,Low Risk,29.5,54.0,33.0,13.0,Routine annual checkup
+PAT00610,31,Male,Low Risk,Low Risk,10.33,84.67,10.0,5.33,Routine annual checkup
+PAT00611,68,Female,Low Risk,Low Risk,13.0,81.0,12.0,7.0,Routine annual checkup
+PAT00612,36,Female,Medium Risk,Medium Risk,48.17,14.33,75.0,10.67,Schedule follow-up screening within 3 months
+PAT00613,83,Female,Medium Risk,Low Risk,28.33,55.33,32.67,12.0,Routine annual checkup
+PAT00614,61,Male,Low Risk,Low Risk,21.67,65.67,25.33,9.0,Routine annual checkup
+PAT00615,48,Female,Low Risk,Low Risk,12.67,79.67,15.33,5.0,Routine annual checkup
+PAT00616,38,Male,Low Risk,Low Risk,35.5,55.67,17.67,26.67,Routine annual checkup
+PAT00617,30,Male,Low Risk,Low Risk,34.67,50.33,30.0,19.67,Routine annual checkup
+PAT00618,69,Male,High Risk,Medium Risk,40.83,36.67,45.0,18.33,Schedule follow-up screening within 3 months
+PAT00619,77,Female,Medium Risk,Medium Risk,42.33,18.33,78.67,3.0,Schedule follow-up screening within 3 months
+PAT00620,53,Male,Low Risk,Low Risk,13.0,80.67,12.67,6.67,Routine annual checkup
+PAT00621,39,Male,Medium Risk,Low Risk,19.0,71.67,18.67,9.67,Routine annual checkup
+PAT00622,69,Male,High Risk,High Risk,74.5,21.0,9.0,70.0,Immediate clinical review + lifestyle intervention
+PAT00623,29,Female,Medium Risk,Medium Risk,45.83,12.33,83.67,4.0,Schedule follow-up screening within 3 months
+PAT00624,51,Female,High Risk,High Risk,80.17,10.67,18.33,71.0,Immediate clinical review + lifestyle intervention
+PAT00625,71,Female,Low Risk,Low Risk,13.17,83.0,7.67,9.33,Routine annual checkup
+PAT00626,34,Male,Low Risk,Low Risk,12.17,79.67,16.33,4.0,Routine annual checkup
+PAT00627,22,Female,Low Risk,Low Risk,34.5,47.0,37.0,16.0,Routine annual checkup
+PAT00628,56,Male,Low Risk,Low Risk,11.67,80.0,16.67,3.33,Routine annual checkup
+PAT00629,59,Male,Medium Risk,Medium Risk,48.67,16.33,70.0,13.67,Schedule follow-up screening within 3 months
+PAT00630,59,Female,Low Risk,Low Risk,28.33,49.67,44.0,6.33,Routine annual checkup
+PAT00631,75,Male,High Risk,High Risk,81.0,11.67,14.67,73.67,Immediate clinical review + lifestyle intervention
+PAT00632,42,Female,Medium Risk,Medium Risk,37.0,29.67,66.67,3.67,Schedule follow-up screening within 3 months
+PAT00633,30,Male,High Risk,Low Risk,34.33,46.67,38.0,15.33,Routine annual checkup
+PAT00634,83,Female,Low Risk,Low Risk,7.83,88.33,7.67,4.0,Routine annual checkup
+PAT00635,27,Male,Low Risk,Low Risk,12.83,82.0,10.33,7.67,Routine annual checkup
+PAT00636,75,Male,Low Risk,Low Risk,13.67,78.0,16.67,5.33,Routine annual checkup
+PAT00637,79,Male,Low Risk,Low Risk,25.5,61.67,25.67,12.67,Routine annual checkup
+PAT00638,29,Male,High Risk,High Risk,72.83,16.0,22.33,61.67,Immediate clinical review + lifestyle intervention
+PAT00639,58,Male,Low Risk,Low Risk,10.67,81.67,15.33,3.0,Routine annual checkup
+PAT00640,47,Female,Low Risk,Low Risk,13.33,77.67,18.0,4.33,Routine annual checkup
+PAT00641,68,Male,Medium Risk,Low Risk,36.83,54.67,17.0,28.33,Routine annual checkup
+PAT00642,55,Female,Medium Risk,Medium Risk,42.83,21.0,72.33,6.67,Schedule follow-up screening within 3 months
+PAT00643,32,Female,Low Risk,Low Risk,17.83,71.0,22.33,6.67,Routine annual checkup
+PAT00644,55,Female,Low Risk,Low Risk,7.67,88.0,8.67,3.33,Routine annual checkup
+PAT00645,45,Male,Low Risk,Low Risk,12.17,82.33,11.0,6.67,Routine annual checkup
+PAT00646,23,Male,Low Risk,Low Risk,9.33,86.33,8.67,5.0,Routine annual checkup
+PAT00647,83,Male,Low Risk,Low Risk,10.33,84.67,10.0,5.33,Routine annual checkup
+PAT00648,57,Female,High Risk,High Risk,73.67,18.67,15.33,66.0,Immediate clinical review + lifestyle intervention
+PAT00649,41,Male,High Risk,High Risk,70.5,20.67,17.67,61.67,Immediate clinical review + lifestyle intervention
+PAT00650,21,Male,Medium Risk,Medium Risk,40.67,21.67,75.33,3.0,Schedule follow-up screening within 3 months
+PAT00651,50,Female,High Risk,High Risk,76.17,18.33,11.0,70.67,Immediate clinical review + lifestyle intervention
+PAT00652,30,Female,Low Risk,Low Risk,8.5,87.33,8.33,4.33,Routine annual checkup
+PAT00653,65,Female,Low Risk,Low Risk,33.33,51.0,31.33,17.67,Routine annual checkup
+PAT00654,81,Female,Low Risk,Low Risk,18.0,75.33,13.33,11.33,Routine annual checkup
+PAT00655,88,Female,Medium Risk,Medium Risk,44.17,17.33,77.0,5.67,Schedule follow-up screening within 3 months
+PAT00656,83,Female,Low Risk,Low Risk,27.17,60.0,25.67,14.33,Routine annual checkup
+PAT00657,29,Male,High Risk,High Risk,73.0,20.67,12.67,66.67,Immediate clinical review + lifestyle intervention
+PAT00658,59,Female,Medium Risk,Medium Risk,45.83,15.67,77.0,7.33,Schedule follow-up screening within 3 months
+PAT00659,43,Male,Low Risk,Low Risk,16.33,77.67,12.0,10.33,Routine annual checkup
+PAT00660,63,Male,Low Risk,Low Risk,12.0,84.67,6.67,8.67,Routine annual checkup
+PAT00661,79,Male,Medium Risk,Medium Risk,39.83,23.0,74.33,2.67,Schedule follow-up screening within 3 months
+PAT00662,81,Female,High Risk,High Risk,80.67,8.33,22.0,69.67,Immediate clinical review + lifestyle intervention
+PAT00663,36,Male,Low Risk,Low Risk,12.17,83.0,9.67,7.33,Routine annual checkup
+PAT00664,84,Female,High Risk,High Risk,72.0,23.33,9.33,67.33,Immediate clinical review + lifestyle intervention
+PAT00665,76,Female,High Risk,High Risk,78.17,14.67,14.33,71.0,Immediate clinical review + lifestyle intervention
+PAT00666,74,Male,Low Risk,Low Risk,11.5,85.0,7.0,8.0,Routine annual checkup
+PAT00667,72,Female,Medium Risk,Medium Risk,42.83,22.33,69.67,8.0,Schedule follow-up screening within 3 months
+PAT00668,75,Male,Medium Risk,Medium Risk,45.33,16.0,77.33,6.67,Schedule follow-up screening within 3 months
+PAT00669,28,Male,Medium Risk,Medium Risk,43.5,18.33,76.33,5.33,Schedule follow-up screening within 3 months
+PAT00670,41,Female,Low Risk,Low Risk,16.5,79.0,9.0,12.0,Routine annual checkup
+PAT00671,32,Male,Low Risk,Low Risk,13.83,78.0,16.33,5.67,Routine annual checkup
+PAT00672,67,Male,Medium Risk,Medium Risk,40.67,23.33,72.0,4.67,Schedule follow-up screening within 3 months
+PAT00673,37,Male,Medium Risk,Medium Risk,47.33,16.33,72.67,11.0,Schedule follow-up screening within 3 months
+PAT00674,59,Female,Medium Risk,Medium Risk,44.33,16.33,78.67,5.0,Schedule follow-up screening within 3 months
+PAT00675,36,Male,Medium Risk,Medium Risk,44.67,17.0,76.67,6.33,Schedule follow-up screening within 3 months
+PAT00676,34,Female,Low Risk,Low Risk,8.67,88.33,6.0,5.67,Routine annual checkup
+PAT00677,34,Female,Low Risk,Low Risk,9.67,85.67,9.33,5.0,Routine annual checkup
+PAT00678,82,Male,Medium Risk,Medium Risk,52.0,9.0,78.0,13.0,Schedule follow-up screening within 3 months
+PAT00679,58,Male,Medium Risk,Medium Risk,47.17,14.67,76.33,9.0,Schedule follow-up screening within 3 months
+PAT00680,32,Female,Medium Risk,Medium Risk,42.5,22.0,71.0,7.0,Schedule follow-up screening within 3 months
+PAT00681,51,Female,Medium Risk,Medium Risk,44.17,20.67,70.33,9.0,Schedule follow-up screening within 3 months
+PAT00682,28,Male,Medium Risk,Medium Risk,43.0,18.33,77.33,4.33,Schedule follow-up screening within 3 months
+PAT00683,59,Male,Low Risk,Low Risk,36.33,54.33,18.67,27.0,Routine annual checkup
+PAT00684,39,Female,Low Risk,Low Risk,12.0,81.33,13.33,5.33,Routine annual checkup
+PAT00685,82,Female,Low Risk,Low Risk,12.83,76.0,22.33,1.67,Routine annual checkup
+PAT00686,63,Female,Medium Risk,Medium Risk,41.33,21.33,74.67,4.0,Schedule follow-up screening within 3 months
+PAT00687,57,Female,Low Risk,Low Risk,13.0,83.0,8.0,9.0,Routine annual checkup
+PAT00688,79,Female,Medium Risk,Low Risk,31.0,51.67,34.67,13.67,Routine annual checkup
+PAT00689,67,Male,High Risk,High Risk,77.17,18.33,9.0,72.67,Immediate clinical review + lifestyle intervention
+PAT00690,37,Female,Low Risk,Low Risk,42.83,43.0,28.33,28.67,Routine annual checkup
+PAT00691,35,Female,Medium Risk,Medium Risk,46.33,17.0,73.33,9.67,Schedule follow-up screening within 3 months
+PAT00692,74,Male,Low Risk,Low Risk,30.0,55.33,29.33,15.33,Routine annual checkup
+PAT00693,58,Male,Low Risk,Medium Risk,38.33,40.0,43.33,16.67,Schedule follow-up screening within 3 months
+PAT00694,87,Female,Low Risk,Low Risk,10.67,86.67,5.33,8.0,Routine annual checkup
+PAT00695,78,Female,Low Risk,Low Risk,19.33,71.67,18.0,10.33,Routine annual checkup
+PAT00696,81,Male,High Risk,Low Risk,25.83,59.33,29.67,11.0,Routine annual checkup
+PAT00697,32,Female,Low Risk,Low Risk,41.5,44.67,27.67,27.67,Routine annual checkup
+PAT00698,25,Female,Low Risk,Low Risk,8.33,89.0,5.33,5.67,Routine annual checkup
+PAT00699,79,Male,Low Risk,Medium Risk,52.0,29.0,38.0,33.0,Schedule follow-up screening within 3 months
+PAT00700,33,Female,High Risk,Low Risk,19.67,70.0,20.67,9.33,Routine annual checkup
+PAT00701,73,Male,Low Risk,Low Risk,11.17,81.67,14.33,4.0,Routine annual checkup
+PAT00702,23,Male,High Risk,High Risk,75.0,19.33,11.33,69.33,Immediate clinical review + lifestyle intervention
+PAT00703,58,Male,Low Risk,Low Risk,13.0,79.0,16.0,5.0,Routine annual checkup
+PAT00704,44,Male,High Risk,High Risk,73.83,23.0,6.33,70.67,Immediate clinical review + lifestyle intervention
+PAT00705,51,Female,Low Risk,Low Risk,12.67,82.67,9.33,8.0,Routine annual checkup
+PAT00706,78,Male,Medium Risk,Low Risk,42.0,44.0,28.0,28.0,Routine annual checkup
+PAT00707,82,Female,Medium Risk,Medium Risk,40.17,24.0,71.67,4.33,Schedule follow-up screening within 3 months
+PAT00708,57,Female,High Risk,High Risk,77.17,15.0,15.67,69.33,Immediate clinical review + lifestyle intervention
+PAT00709,72,Female,Medium Risk,Medium Risk,42.33,21.33,72.67,6.0,Schedule follow-up screening within 3 months
+PAT00710,86,Female,High Risk,High Risk,76.33,18.0,11.33,70.67,Immediate clinical review + lifestyle intervention
+PAT00711,47,Female,Medium Risk,Medium Risk,45.67,16.0,76.67,7.33,Schedule follow-up screening within 3 months
+PAT00712,22,Male,Low Risk,Low Risk,14.83,73.67,23.0,3.33,Routine annual checkup
+PAT00713,41,Male,Low Risk,Low Risk,13.33,82.0,9.33,8.67,Routine annual checkup
+PAT00714,57,Male,Low Risk,Low Risk,10.67,82.33,14.0,3.67,Routine annual checkup
+PAT00715,81,Male,High Risk,High Risk,79.0,14.67,12.67,72.67,Immediate clinical review + lifestyle intervention
+PAT00716,76,Female,Medium Risk,Medium Risk,42.83,18.67,77.0,4.33,Schedule follow-up screening within 3 months
+PAT00717,25,Male,Medium Risk,Medium Risk,43.5,17.33,78.33,4.33,Schedule follow-up screening within 3 months
+PAT00718,51,Female,Low Risk,Low Risk,9.33,85.33,10.67,4.0,Routine annual checkup
+PAT00719,29,Female,Low Risk,Low Risk,14.67,77.67,15.33,7.0,Routine annual checkup
+PAT00720,22,Male,Medium Risk,Medium Risk,42.33,20.67,74.0,5.33,Schedule follow-up screening within 3 months
+PAT00721,78,Male,High Risk,High Risk,70.67,22.0,14.67,63.33,Immediate clinical review + lifestyle intervention
+PAT00722,68,Male,Low Risk,Low Risk,32.33,55.33,24.67,20.0,Routine annual checkup
+PAT00723,78,Male,Low Risk,Low Risk,10.33,84.33,10.67,5.0,Routine annual checkup
+PAT00724,50,Female,Low Risk,Low Risk,16.5,74.0,19.0,7.0,Routine annual checkup
+PAT00725,88,Female,Low Risk,Low Risk,14.17,77.67,16.33,6.0,Routine annual checkup
+PAT00726,81,Male,Medium Risk,Low Risk,26.67,63.67,19.33,17.0,Routine annual checkup
+PAT00727,71,Female,High Risk,High Risk,79.5,14.67,11.67,73.67,Immediate clinical review + lifestyle intervention
+PAT00728,60,Female,Medium Risk,Medium Risk,47.17,14.0,77.67,8.33,Schedule follow-up screening within 3 months
+PAT00729,50,Female,Medium Risk,Medium Risk,38.67,27.67,67.33,5.0,Schedule follow-up screening within 3 months
+PAT00730,41,Male,Medium Risk,Low Risk,28.17,56.67,30.33,13.0,Routine annual checkup
+PAT00731,23,Female,Low Risk,Low Risk,39.17,51.0,19.67,29.33,Routine annual checkup
+PAT00732,32,Male,Medium Risk,Medium Risk,41.83,19.67,77.0,3.33,Schedule follow-up screening within 3 months
+PAT00733,64,Male,Medium Risk,Medium Risk,39.83,21.33,77.67,1.0,Schedule follow-up screening within 3 months
+PAT00734,61,Female,Medium Risk,Medium Risk,47.33,9.67,86.0,4.33,Schedule follow-up screening within 3 months
+PAT00735,68,Female,High Risk,High Risk,80.17,15.0,9.67,75.33,Immediate clinical review + lifestyle intervention
+PAT00736,39,Male,Medium Risk,Medium Risk,41.67,21.33,74.0,4.67,Schedule follow-up screening within 3 months
+PAT00737,73,Female,Low Risk,Low Risk,21.67,72.33,12.0,15.67,Routine annual checkup
+PAT00738,55,Female,Low Risk,Low Risk,12.0,78.33,19.33,2.33,Routine annual checkup
+PAT00739,20,Male,Medium Risk,Medium Risk,40.5,25.0,69.0,6.0,Schedule follow-up screening within 3 months
+PAT00740,34,Male,Low Risk,Low Risk,26.17,57.33,33.0,9.67,Routine annual checkup
+PAT00741,36,Male,High Risk,High Risk,66.67,27.67,11.33,61.0,Immediate clinical review + lifestyle intervention
+PAT00742,43,Male,Low Risk,Low Risk,11.0,84.33,9.33,6.33,Routine annual checkup
+PAT00743,77,Female,Medium Risk,Low Risk,42.5,44.33,26.33,29.33,Routine annual checkup
+PAT00744,42,Female,Medium Risk,Medium Risk,50.0,13.33,73.33,13.33,Schedule follow-up screening within 3 months
+PAT00745,65,Male,Low Risk,Low Risk,10.0,85.33,9.33,5.33,Routine annual checkup
+PAT00746,27,Male,Medium Risk,Medium Risk,42.0,20.67,74.67,4.67,Schedule follow-up screening within 3 months
+PAT00747,78,Male,High Risk,High Risk,78.67,18.0,6.67,75.33,Immediate clinical review + lifestyle intervention
+PAT00748,78,Female,Medium Risk,Medium Risk,41.5,22.0,73.0,5.0,Schedule follow-up screening within 3 months
+PAT00749,32,Male,Medium Risk,Medium Risk,49.33,14.33,72.67,13.0,Schedule follow-up screening within 3 months
+PAT00750,58,Female,Medium Risk,Medium Risk,45.67,18.67,71.33,10.0,Schedule follow-up screening within 3 months
+PAT00751,47,Male,Low Risk,Low Risk,14.83,79.67,11.0,9.33,Routine annual checkup
+PAT00752,80,Male,Low Risk,Low Risk,11.17,85.0,7.67,7.33,Routine annual checkup
+PAT00753,35,Male,Low Risk,Low Risk,12.33,83.67,8.0,8.33,Routine annual checkup
+PAT00754,21,Female,Medium Risk,Medium Risk,44.5,17.0,77.0,6.0,Schedule follow-up screening within 3 months
+PAT00755,36,Female,Medium Risk,Medium Risk,47.83,15.0,74.33,10.67,Schedule follow-up screening within 3 months
+PAT00756,49,Female,Medium Risk,Medium Risk,47.5,11.0,83.0,6.0,Schedule follow-up screening within 3 months
+PAT00757,32,Male,Medium Risk,Low Risk,38.83,46.33,29.67,24.0,Routine annual checkup
+PAT00758,32,Female,Low Risk,Low Risk,38.0,48.0,28.0,24.0,Routine annual checkup
+PAT00759,62,Female,Medium Risk,Medium Risk,44.67,17.0,76.67,6.33,Schedule follow-up screening within 3 months
+PAT00760,40,Male,Low Risk,Low Risk,10.67,87.67,3.33,9.0,Routine annual checkup
+PAT00761,74,Male,Medium Risk,Medium Risk,38.67,24.0,74.67,1.33,Schedule follow-up screening within 3 months
+PAT00762,59,Female,High Risk,Low Risk,31.83,55.33,25.67,19.0,Routine annual checkup
+PAT00763,34,Female,High Risk,High Risk,75.83,14.67,19.0,66.33,Immediate clinical review + lifestyle intervention
+PAT00764,71,Female,High Risk,High Risk,77.67,14.67,15.33,70.0,Immediate clinical review + lifestyle intervention
+PAT00765,72,Female,Medium Risk,Medium Risk,45.83,14.0,80.33,5.67,Schedule follow-up screening within 3 months
+PAT00766,71,Male,High Risk,Low Risk,20.67,69.67,19.33,11.0,Routine annual checkup
+PAT00767,49,Male,High Risk,High Risk,77.0,19.0,8.0,73.0,Immediate clinical review + lifestyle intervention
+PAT00768,52,Male,Low Risk,Low Risk,10.17,84.67,10.33,5.0,Routine annual checkup
+PAT00769,76,Female,Low Risk,Low Risk,7.33,89.0,7.33,3.67,Routine annual checkup
+PAT00770,71,Female,High Risk,Low Risk,33.67,53.67,25.33,21.0,Routine annual checkup
+PAT00771,28,Male,Medium Risk,Medium Risk,44.0,20.33,71.33,8.33,Schedule follow-up screening within 3 months
+PAT00772,73,Male,Low Risk,Low Risk,14.33,80.0,11.33,8.67,Routine annual checkup
+PAT00773,20,Female,Low Risk,Low Risk,14.5,79.0,13.0,8.0,Routine annual checkup
+PAT00774,63,Female,Low Risk,Low Risk,14.17,78.33,15.0,6.67,Routine annual checkup
+PAT00775,28,Male,Medium Risk,Low Risk,34.33,58.0,15.33,26.67,Routine annual checkup
+PAT00776,51,Male,Low Risk,Low Risk,14.83,80.33,9.67,10.0,Routine annual checkup
+PAT00777,34,Male,Low Risk,Low Risk,12.17,83.67,8.33,8.0,Routine annual checkup
+PAT00778,31,Female,Medium Risk,Medium Risk,48.0,11.0,82.0,7.0,Schedule follow-up screening within 3 months
+PAT00779,76,Female,Low Risk,Low Risk,12.83,82.67,9.0,8.33,Routine annual checkup
+PAT00780,27,Female,Medium Risk,Low Risk,30.0,55.0,30.0,15.0,Routine annual checkup
+PAT00781,46,Female,Low Risk,Low Risk,10.0,86.67,6.67,6.67,Routine annual checkup
+PAT00782,81,Female,Low Risk,Low Risk,13.83,80.67,11.0,8.33,Routine annual checkup
+PAT00783,31,Female,Low Risk,Low Risk,15.67,77.0,14.67,8.33,Routine annual checkup
+PAT00784,84,Male,Low Risk,Low Risk,33.17,49.33,35.0,15.67,Routine annual checkup
+PAT00785,61,Male,Medium Risk,Medium Risk,45.33,17.0,75.33,7.67,Schedule follow-up screening within 3 months
+PAT00786,81,Female,Low Risk,Low Risk,17.83,73.67,17.0,9.33,Routine annual checkup
+PAT00787,30,Male,Low Risk,Low Risk,46.5,36.33,34.33,29.33,Routine annual checkup
+PAT00788,62,Female,Low Risk,Low Risk,15.17,79.33,11.0,9.67,Routine annual checkup
+PAT00789,36,Male,Low Risk,Medium Risk,40.17,39.0,41.67,19.33,Schedule follow-up screening within 3 months
+PAT00790,51,Female,Low Risk,Low Risk,10.67,83.0,12.67,4.33,Routine annual checkup
+PAT00791,59,Male,Low Risk,Low Risk,9.67,86.0,8.67,5.33,Routine annual checkup
+PAT00792,42,Male,Low Risk,Low Risk,12.0,82.67,10.67,6.67,Routine annual checkup
+PAT00793,75,Female,Low Risk,Low Risk,13.83,75.67,21.0,3.33,Routine annual checkup
+PAT00794,25,Female,High Risk,High Risk,79.0,12.0,18.0,70.0,Immediate clinical review + lifestyle intervention
+PAT00795,69,Male,Low Risk,Low Risk,14.83,80.0,10.33,9.67,Routine annual checkup
+PAT00796,56,Male,Medium Risk,Medium Risk,40.67,22.67,73.33,4.0,Schedule follow-up screening within 3 months
+PAT00797,83,Female,Medium Risk,Medium Risk,50.33,11.33,76.67,12.0,Schedule follow-up screening within 3 months
+PAT00798,73,Male,Medium Risk,Low Risk,37.0,43.67,38.67,17.67,Routine annual checkup
+PAT00799,68,Female,Low Risk,Low Risk,15.33,75.67,18.0,6.33,Routine annual checkup
+PAT00800,30,Female,Low Risk,Low Risk,14.17,82.0,7.67,10.33,Routine annual checkup
+PAT00801,68,Male,Low Risk,Low Risk,9.67,83.33,14.0,2.67,Routine annual checkup
+PAT00802,40,Female,Medium Risk,Medium Risk,45.83,17.33,73.67,9.0,Schedule follow-up screening within 3 months
+PAT00803,85,Male,Low Risk,Low Risk,9.33,87.33,6.67,6.0,Routine annual checkup
+PAT00804,82,Male,Low Risk,Low Risk,10.67,84.0,10.67,5.33,Routine annual checkup
+PAT00805,47,Female,Medium Risk,Medium Risk,45.33,19.33,70.67,10.0,Schedule follow-up screening within 3 months
+PAT00806,36,Male,Medium Risk,Medium Risk,40.83,27.33,63.67,9.0,Schedule follow-up screening within 3 months
+PAT00807,25,Female,Medium Risk,Medium Risk,42.5,29.0,57.0,14.0,Schedule follow-up screening within 3 months
+PAT00808,38,Female,Low Risk,Low Risk,13.67,80.0,12.67,7.33,Routine annual checkup
+PAT00809,75,Female,Low Risk,Low Risk,34.83,52.67,25.0,22.33,Routine annual checkup
+PAT00810,47,Male,Medium Risk,Low Risk,25.5,59.33,30.33,10.33,Routine annual checkup
+PAT00811,85,Female,Low Risk,Low Risk,5.17,92.33,5.0,2.67,Routine annual checkup
+PAT00812,57,Male,High Risk,Low Risk,30.83,54.67,29.0,16.33,Routine annual checkup
+PAT00813,56,Female,Medium Risk,Medium Risk,45.5,16.67,75.67,7.67,Schedule follow-up screening within 3 months
+PAT00814,87,Female,Medium Risk,Medium Risk,51.33,10.33,76.67,13.0,Schedule follow-up screening within 3 months
+PAT00815,68,Female,High Risk,High Risk,77.17,19.33,7.0,73.67,Immediate clinical review + lifestyle intervention
+PAT00816,62,Male,Medium Risk,Medium Risk,41.5,23.67,69.67,6.67,Schedule follow-up screening within 3 months
+PAT00817,55,Male,Medium Risk,Medium Risk,45.5,11.67,85.67,2.67,Schedule follow-up screening within 3 months
+PAT00818,77,Female,Low Risk,Low Risk,10.67,82.0,14.67,3.33,Routine annual checkup
+PAT00819,32,Female,Medium Risk,Medium Risk,48.17,12.67,78.33,9.0,Schedule follow-up screening within 3 months
+PAT00820,71,Male,Low Risk,Low Risk,14.67,79.33,12.0,8.67,Routine annual checkup
+PAT00821,77,Male,Low Risk,Low Risk,18.17,75.67,12.33,12.0,Routine annual checkup
+PAT00822,51,Male,High Risk,High Risk,74.67,18.67,13.33,68.0,Immediate clinical review + lifestyle intervention
+PAT00823,79,Female,Low Risk,Low Risk,14.83,81.67,7.0,11.33,Routine annual checkup
+PAT00824,77,Male,High Risk,High Risk,75.17,20.67,8.33,71.0,Immediate clinical review + lifestyle intervention
+PAT00825,75,Female,Low Risk,Low Risk,15.33,76.0,17.33,6.67,Routine annual checkup
+PAT00826,47,Male,Low Risk,Low Risk,9.5,86.33,8.33,5.33,Routine annual checkup
+PAT00827,20,Female,Medium Risk,Low Risk,35.67,45.0,38.67,16.33,Routine annual checkup
+PAT00828,61,Female,Low Risk,Low Risk,13.83,75.67,21.0,3.33,Routine annual checkup
+PAT00829,67,Female,Low Risk,Low Risk,14.0,78.67,14.67,6.67,Routine annual checkup
+PAT00830,59,Male,Low Risk,Low Risk,12.33,82.67,10.0,7.33,Routine annual checkup
+PAT00831,82,Male,Low Risk,Low Risk,8.33,87.33,8.67,4.0,Routine annual checkup
+PAT00832,23,Male,Medium Risk,Low Risk,30.5,56.0,27.0,17.0,Routine annual checkup
+PAT00833,57,Female,Low Risk,Low Risk,42.5,39.33,36.33,24.33,Routine annual checkup
+PAT00834,46,Female,High Risk,Low Risk,24.0,64.0,24.0,12.0,Routine annual checkup
+PAT00835,28,Male,Medium Risk,Medium Risk,45.5,14.33,80.33,5.33,Schedule follow-up screening within 3 months
+PAT00836,35,Female,Medium Risk,Medium Risk,48.67,13.33,76.0,10.67,Schedule follow-up screening within 3 months
+PAT00837,75,Female,Medium Risk,Low Risk,41.5,40.33,36.33,23.33,Routine annual checkup
+PAT00838,50,Female,Low Risk,Low Risk,15.0,80.0,10.0,10.0,Routine annual checkup
+PAT00839,33,Male,Low Risk,Low Risk,17.0,77.67,10.67,11.67,Routine annual checkup
+PAT00840,44,Female,Low Risk,Low Risk,14.33,79.67,12.0,8.33,Routine annual checkup
+PAT00841,53,Male,High Risk,High Risk,81.0,14.67,8.67,76.67,Immediate clinical review + lifestyle intervention
+PAT00842,86,Male,Low Risk,Low Risk,16.5,78.0,11.0,11.0,Routine annual checkup
+PAT00843,43,Male,Low Risk,Low Risk,12.33,81.33,12.67,6.0,Routine annual checkup
+PAT00844,45,Male,High Risk,High Risk,83.5,13.67,5.67,80.67,Immediate clinical review + lifestyle intervention
+PAT00845,39,Male,Medium Risk,Medium Risk,47.33,17.33,70.67,12.0,Schedule follow-up screening within 3 months
+PAT00846,83,Female,Low Risk,Medium Risk,44.67,31.67,47.33,21.0,Schedule follow-up screening within 3 months
+PAT00847,29,Male,Low Risk,Low Risk,16.0,77.0,14.0,9.0,Routine annual checkup
+PAT00848,86,Male,Low Risk,Low Risk,13.17,81.0,11.67,7.33,Routine annual checkup
+PAT00849,43,Male,Low Risk,Low Risk,9.5,86.33,8.33,5.33,Routine annual checkup
+PAT00850,24,Female,Medium Risk,Medium Risk,50.67,11.0,76.67,12.33,Schedule follow-up screening within 3 months
+PAT00851,86,Female,High Risk,High Risk,73.5,20.33,12.33,67.33,Immediate clinical review + lifestyle intervention
+PAT00852,77,Female,Low Risk,Low Risk,12.33,81.0,13.33,5.67,Routine annual checkup
+PAT00853,46,Female,High Risk,High Risk,76.67,18.33,10.0,71.67,Immediate clinical review + lifestyle intervention
+PAT00854,34,Male,Low Risk,Low Risk,13.67,79.67,13.33,7.0,Routine annual checkup
+PAT00855,54,Male,Low Risk,Low Risk,5.17,92.0,5.67,2.33,Routine annual checkup
+PAT00856,72,Female,Low Risk,Low Risk,9.17,86.33,9.0,4.67,Routine annual checkup
+PAT00857,63,Female,Low Risk,Low Risk,5.33,93.0,3.33,3.67,Routine annual checkup
+PAT00858,45,Female,Medium Risk,Medium Risk,45.33,17.67,74.0,8.33,Schedule follow-up screening within 3 months
+PAT00859,66,Female,Low Risk,Low Risk,17.0,74.0,18.0,8.0,Routine annual checkup
+PAT00860,53,Male,Low Risk,Low Risk,8.17,86.33,11.0,2.67,Routine annual checkup
+PAT00861,69,Female,Low Risk,Low Risk,12.33,83.33,8.67,8.0,Routine annual checkup
+PAT00862,31,Female,Low Risk,Low Risk,11.17,83.0,11.67,5.33,Routine annual checkup
+PAT00863,23,Female,High Risk,Low Risk,48.0,39.0,26.0,35.0,Routine annual checkup
+PAT00864,67,Female,Low Risk,Low Risk,9.33,83.33,14.67,2.0,Routine annual checkup
+PAT00865,74,Female,Low Risk,Low Risk,17.67,76.33,12.0,11.67,Routine annual checkup
+PAT00866,20,Female,High Risk,High Risk,76.17,18.33,11.0,70.67,Immediate clinical review + lifestyle intervention
+PAT00867,85,Female,Low Risk,Low Risk,6.5,88.33,10.33,1.33,Routine annual checkup
+PAT00868,49,Male,Low Risk,High Risk,53.0,31.67,30.67,37.67,Immediate clinical review + lifestyle intervention
+PAT00869,22,Male,Low Risk,Low Risk,9.5,84.67,11.67,3.67,Routine annual checkup
+PAT00870,40,Male,Medium Risk,Medium Risk,45.17,18.33,73.0,8.67,Schedule follow-up screening within 3 months
+PAT00871,68,Male,Low Risk,Low Risk,10.83,85.67,7.0,7.33,Routine annual checkup
+PAT00872,81,Male,Low Risk,Low Risk,32.5,52.0,31.0,17.0,Routine annual checkup
+PAT00873,57,Male,Low Risk,Low Risk,17.33,70.0,25.33,4.67,Routine annual checkup
+PAT00874,34,Female,High Risk,High Risk,77.17,15.0,15.67,69.33,Immediate clinical review + lifestyle intervention
+PAT00875,71,Female,Medium Risk,Medium Risk,44.5,17.33,76.33,6.33,Schedule follow-up screening within 3 months
+PAT00876,65,Male,Low Risk,Low Risk,14.5,80.33,10.33,9.33,Routine annual checkup
+PAT00877,44,Female,Low Risk,Low Risk,14.83,80.67,9.0,10.33,Routine annual checkup
+PAT00878,40,Male,Medium Risk,Medium Risk,41.33,19.67,78.0,2.33,Schedule follow-up screening within 3 months
+PAT00879,24,Female,Medium Risk,Medium Risk,46.33,13.67,80.0,6.33,Schedule follow-up screening within 3 months
+PAT00880,89,Female,High Risk,High Risk,76.67,19.0,8.67,72.33,Immediate clinical review + lifestyle intervention
+PAT00881,66,Female,Low Risk,Low Risk,18.17,80.0,3.67,16.33,Routine annual checkup
+PAT00882,87,Female,High Risk,High Risk,72.17,24.33,7.0,68.67,Immediate clinical review + lifestyle intervention
+PAT00883,37,Female,High Risk,High Risk,73.33,23.0,7.33,69.67,Immediate clinical review + lifestyle intervention
+PAT00884,40,Female,High Risk,High Risk,70.17,23.67,12.33,64.0,Immediate clinical review + lifestyle intervention
+PAT00885,42,Male,Low Risk,Low Risk,37.83,51.33,21.67,27.0,Routine annual checkup
+PAT00886,83,Male,Medium Risk,Low Risk,32.67,50.67,33.33,16.0,Routine annual checkup
+PAT00887,86,Female,Medium Risk,Low Risk,27.33,65.67,14.0,20.33,Routine annual checkup
+PAT00888,59,Male,Low Risk,Low Risk,7.5,86.67,11.67,1.67,Routine annual checkup
+PAT00889,29,Female,High Risk,High Risk,71.17,25.67,6.33,68.0,Immediate clinical review + lifestyle intervention
+PAT00890,71,Male,Medium Risk,Medium Risk,46.17,13.0,81.67,5.33,Schedule follow-up screening within 3 months
+PAT00891,80,Female,Low Risk,Low Risk,30.5,50.67,37.67,11.67,Routine annual checkup
+PAT00892,83,Male,Medium Risk,Medium Risk,47.33,16.67,72.0,11.33,Schedule follow-up screening within 3 months
+PAT00893,24,Female,Low Risk,Low Risk,9.83,84.33,11.67,4.0,Routine annual checkup
+PAT00894,72,Male,High Risk,High Risk,73.33,23.67,6.0,70.33,Immediate clinical review + lifestyle intervention
+PAT00895,74,Female,Low Risk,Low Risk,11.83,84.0,8.33,7.67,Routine annual checkup
+PAT00896,56,Male,Medium Risk,Low Risk,22.17,66.0,23.67,10.33,Routine annual checkup
+PAT00897,75,Female,Low Risk,Low Risk,9.67,84.67,11.33,4.0,Routine annual checkup
+PAT00898,78,Female,Medium Risk,Medium Risk,39.17,23.33,75.0,1.67,Schedule follow-up screening within 3 months
+PAT00899,88,Female,Medium Risk,High Risk,52.17,39.0,17.67,43.33,Immediate clinical review + lifestyle intervention
+PAT00900,78,Male,Low Risk,Low Risk,13.17,80.33,13.0,6.67,Routine annual checkup
+PAT00901,21,Male,Low Risk,Low Risk,13.17,81.33,11.0,7.67,Routine annual checkup
+PAT00902,84,Male,High Risk,Low Risk,33.33,60.67,12.0,27.33,Routine annual checkup
+PAT00903,79,Female,Low Risk,Low Risk,9.83,84.33,11.67,4.0,Routine annual checkup
+PAT00904,70,Male,Medium Risk,Medium Risk,46.17,14.0,79.67,6.33,Schedule follow-up screening within 3 months
+PAT00905,49,Female,Low Risk,Low Risk,13.33,79.67,14.0,6.33,Routine annual checkup
+PAT00906,30,Male,Medium Risk,Medium Risk,43.0,21.33,71.33,7.33,Schedule follow-up screening within 3 months
+PAT00907,58,Male,Low Risk,Low Risk,35.67,44.33,40.0,15.67,Routine annual checkup
+PAT00908,82,Male,Medium Risk,Low Risk,28.17,58.0,27.67,14.33,Routine annual checkup
+PAT00909,83,Male,Medium Risk,Medium Risk,38.83,29.33,63.67,7.0,Schedule follow-up screening within 3 months
+PAT00910,80,Female,High Risk,High Risk,74.17,22.67,6.33,71.0,Immediate clinical review + lifestyle intervention
+PAT00911,73,Male,High Risk,High Risk,77.17,18.0,9.67,72.33,Immediate clinical review + lifestyle intervention
+PAT00912,77,Male,Low Risk,Low Risk,30.33,56.67,26.0,17.33,Routine annual checkup
+PAT00913,75,Female,Low Risk,Low Risk,33.33,45.67,42.0,12.33,Routine annual checkup
+PAT00914,53,Female,Low Risk,Low Risk,10.83,81.33,15.67,3.0,Routine annual checkup
+PAT00915,50,Male,Medium Risk,Medium Risk,46.0,16.33,75.33,8.33,Schedule follow-up screening within 3 months
+PAT00916,71,Male,Medium Risk,Medium Risk,49.83,9.67,81.0,9.33,Schedule follow-up screening within 3 months
+PAT00917,20,Female,Low Risk,Low Risk,11.5,82.67,11.67,5.67,Routine annual checkup
+PAT00918,74,Female,Low Risk,Low Risk,28.67,61.33,20.0,18.67,Routine annual checkup
+PAT00919,41,Female,Medium Risk,Medium Risk,43.5,21.0,71.0,8.0,Schedule follow-up screening within 3 months
+PAT00920,59,Male,Low Risk,Low Risk,32.83,59.67,15.0,25.33,Routine annual checkup
+PAT00921,20,Male,Low Risk,Low Risk,18.5,74.33,14.33,11.33,Routine annual checkup
+PAT00922,84,Male,Low Risk,Low Risk,12.0,83.0,10.0,7.0,Routine annual checkup
+PAT00923,82,Female,Medium Risk,Medium Risk,39.5,23.67,73.67,2.67,Schedule follow-up screening within 3 months
+PAT00924,73,Female,High Risk,High Risk,74.67,22.0,6.67,71.33,Immediate clinical review + lifestyle intervention
+PAT00925,61,Female,Medium Risk,Low Risk,32.5,47.0,41.0,12.0,Routine annual checkup
+PAT00926,40,Male,Low Risk,Low Risk,15.83,81.67,5.0,13.33,Routine annual checkup
+PAT00927,41,Female,Medium Risk,Medium Risk,44.5,12.33,86.33,1.33,Schedule follow-up screening within 3 months
+PAT00928,57,Male,Medium Risk,Medium Risk,47.5,11.67,81.67,6.67,Schedule follow-up screening within 3 months
+PAT00929,27,Female,Low Risk,Low Risk,5.17,91.67,6.33,2.0,Routine annual checkup
+PAT00930,81,Male,Medium Risk,Medium Risk,43.33,19.33,74.67,6.0,Schedule follow-up screening within 3 months
+PAT00931,66,Male,Medium Risk,Medium Risk,39.17,25.0,71.67,3.33,Schedule follow-up screening within 3 months
+PAT00932,36,Female,Low Risk,Low Risk,15.17,77.67,14.33,8.0,Routine annual checkup
+PAT00933,36,Male,Low Risk,Low Risk,10.83,84.33,9.67,6.0,Routine annual checkup
+PAT00934,32,Female,Low Risk,Low Risk,33.17,49.33,35.0,15.67,Routine annual checkup
+PAT00935,36,Male,High Risk,High Risk,81.33,12.0,13.33,74.67,Immediate clinical review + lifestyle intervention
+PAT00936,57,Female,Low Risk,Low Risk,10.83,85.0,8.33,6.67,Routine annual checkup
+PAT00937,64,Female,Low Risk,Low Risk,11.17,85.33,7.0,7.67,Routine annual checkup
+PAT00938,25,Male,High Risk,High Risk,75.17,17.0,15.67,67.33,Immediate clinical review + lifestyle intervention
+PAT00939,54,Female,Low Risk,Low Risk,18.17,75.67,12.33,12.0,Routine annual checkup
+PAT00940,33,Male,Medium Risk,Medium Risk,47.5,11.0,83.0,6.0,Schedule follow-up screening within 3 months
+PAT00941,80,Female,Medium Risk,Medium Risk,45.17,17.67,74.33,8.0,Schedule follow-up screening within 3 months
+PAT00942,34,Female,Medium Risk,Medium Risk,43.83,20.0,72.33,7.67,Schedule follow-up screening within 3 months
+PAT00943,73,Female,Medium Risk,Medium Risk,51.5,5.67,85.67,8.67,Schedule follow-up screening within 3 months
+PAT00944,46,Female,Medium Risk,Medium Risk,44.67,19.33,72.0,8.67,Schedule follow-up screening within 3 months
+PAT00945,32,Male,Low Risk,Low Risk,29.83,51.67,37.0,11.33,Routine annual checkup
+PAT00946,50,Female,High Risk,High Risk,75.33,16.0,17.33,66.67,Immediate clinical review + lifestyle intervention
+PAT00947,54,Female,Low Risk,Low Risk,10.83,83.0,12.33,4.67,Routine annual checkup
+PAT00948,79,Male,Low Risk,Low Risk,11.67,85.33,6.0,8.67,Routine annual checkup
+PAT00949,25,Male,High Risk,High Risk,68.5,27.67,7.67,64.67,Immediate clinical review + lifestyle intervention
+PAT00950,88,Male,High Risk,Low Risk,25.33,65.67,18.0,16.33,Routine annual checkup
+PAT00951,77,Male,Low Risk,Low Risk,8.0,87.0,10.0,3.0,Routine annual checkup
+PAT00952,68,Male,Low Risk,Low Risk,9.33,86.67,8.0,5.33,Routine annual checkup
+PAT00953,42,Male,High Risk,High Risk,75.33,18.67,12.0,69.33,Immediate clinical review + lifestyle intervention
+PAT00954,53,Female,Medium Risk,Medium Risk,44.0,18.67,74.67,6.67,Schedule follow-up screening within 3 months
+PAT00955,45,Male,Low Risk,Low Risk,14.5,80.67,9.67,9.67,Routine annual checkup
+PAT00956,66,Female,High Risk,High Risk,69.0,29.0,4.0,67.0,Immediate clinical review + lifestyle intervention
+PAT00957,24,Male,Low Risk,Low Risk,15.67,77.67,13.33,9.0,Routine annual checkup
+PAT00958,39,Female,Low Risk,Low Risk,28.0,51.33,41.33,7.33,Routine annual checkup
+PAT00959,25,Female,Medium Risk,Medium Risk,44.17,19.0,73.67,7.33,Schedule follow-up screening within 3 months
+PAT00960,89,Female,Medium Risk,Medium Risk,52.67,11.33,72.0,16.67,Schedule follow-up screening within 3 months
+PAT00961,78,Male,High Risk,High Risk,73.67,20.0,12.67,67.33,Immediate clinical review + lifestyle intervention
+PAT00962,83,Male,Low Risk,Low Risk,10.17,84.67,10.33,5.0,Routine annual checkup
+PAT00963,37,Male,High Risk,High Risk,76.0,20.0,8.0,72.0,Immediate clinical review + lifestyle intervention
+PAT00964,23,Male,Medium Risk,Medium Risk,40.83,24.0,70.33,5.67,Schedule follow-up screening within 3 months
+PAT00965,36,Female,Low Risk,Low Risk,34.0,49.67,32.67,17.67,Routine annual checkup
+PAT00966,33,Male,Medium Risk,Medium Risk,40.33,24.33,70.67,5.0,Schedule follow-up screening within 3 months
+PAT00967,32,Female,Medium Risk,Medium Risk,41.67,22.67,71.33,6.0,Schedule follow-up screening within 3 months
+PAT00968,26,Female,Low Risk,Low Risk,8.33,86.33,10.67,3.0,Routine annual checkup
+PAT00969,63,Male,Medium Risk,Medium Risk,45.83,15.0,78.33,6.67,Schedule follow-up screening within 3 months
+PAT00970,34,Male,Low Risk,Low Risk,13.33,82.33,8.67,9.0,Routine annual checkup
+PAT00971,38,Male,Low Risk,Low Risk,13.33,77.33,18.67,4.0,Routine annual checkup
+PAT00972,82,Female,Medium Risk,Medium Risk,48.67,9.33,84.0,6.67,Schedule follow-up screening within 3 months
+PAT00973,54,Male,Medium Risk,Low Risk,31.67,56.0,24.67,19.33,Routine annual checkup
+PAT00974,54,Female,Medium Risk,Medium Risk,44.17,18.0,75.67,6.33,Schedule follow-up screening within 3 months
+PAT00975,38,Male,Low Risk,Low Risk,14.33,82.33,6.67,11.0,Routine annual checkup
+PAT00976,39,Female,Medium Risk,Medium Risk,49.67,13.0,74.67,12.33,Schedule follow-up screening within 3 months
+PAT00977,54,Male,Low Risk,Low Risk,14.0,79.33,13.33,7.33,Routine annual checkup
+PAT00978,51,Male,Low Risk,Low Risk,40.83,51.33,15.67,33.0,Routine annual checkup
+PAT00979,67,Female,Medium Risk,Medium Risk,46.5,14.67,77.67,7.67,Schedule follow-up screening within 3 months
+PAT00980,63,Male,Low Risk,Low Risk,12.83,85.33,3.67,11.0,Routine annual checkup
+PAT00981,43,Male,Medium Risk,Medium Risk,43.17,19.33,75.0,5.67,Schedule follow-up screening within 3 months
+PAT00982,80,Male,Low Risk,Low Risk,12.83,79.67,15.0,5.33,Routine annual checkup
+PAT00983,36,Male,Low Risk,Low Risk,10.67,83.67,11.33,5.0,Routine annual checkup
+PAT00984,69,Male,High Risk,High Risk,77.83,15.33,13.67,71.0,Immediate clinical review + lifestyle intervention
+PAT00985,84,Male,High Risk,High Risk,75.0,20.0,10.0,70.0,Immediate clinical review + lifestyle intervention
+PAT00986,51,Male,Low Risk,High Risk,60.5,29.33,20.33,50.33,Immediate clinical review + lifestyle intervention
+PAT00987,55,Female,Low Risk,Low Risk,14.5,78.0,15.0,7.0,Routine annual checkup
+PAT00988,32,Female,Low Risk,Low Risk,20.67,73.67,11.33,15.0,Routine annual checkup
+PAT00989,89,Male,High Risk,High Risk,73.5,25.0,3.0,72.0,Immediate clinical review + lifestyle intervention
+PAT00990,77,Male,Medium Risk,Medium Risk,43.17,18.67,76.33,5.0,Schedule follow-up screening within 3 months
+PAT00991,33,Male,High Risk,High Risk,72.33,22.0,11.33,66.67,Immediate clinical review + lifestyle intervention
+PAT00992,56,Female,Low Risk,Low Risk,12.17,79.0,17.67,3.33,Routine annual checkup
+PAT00993,87,Female,Medium Risk,Medium Risk,47.33,16.33,72.67,11.0,Schedule follow-up screening within 3 months
+PAT00994,59,Male,High Risk,High Risk,72.0,22.67,10.67,66.67,Immediate clinical review + lifestyle intervention
+PAT00995,78,Female,Low Risk,Low Risk,26.0,56.0,36.0,8.0,Routine annual checkup
+PAT00996,35,Male,Low Risk,Low Risk,15.17,80.0,9.67,10.33,Routine annual checkup
+PAT00997,81,Male,Medium Risk,Medium Risk,49.0,14.67,72.67,12.67,Schedule follow-up screening within 3 months
+PAT00998,23,Male,Medium Risk,Medium Risk,40.67,36.67,45.33,18.0,Schedule follow-up screening within 3 months
+PAT00999,64,Male,Low Risk,Low Risk,16.17,75.67,16.33,8.0,Routine annual checkup
+PAT01000,47,Female,Medium Risk,Low Risk,31.83,49.67,37.0,13.33,Routine annual checkup

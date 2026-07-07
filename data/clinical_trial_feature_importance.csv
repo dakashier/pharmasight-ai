@@ -1,0 +1,9 @@
+Feature,Importance
+Drug_Type,0.14011782
+Adverse_Events,0.13621058
+Trial_Duration_Months,0.13463908
+Avg_Age,0.13182619
+Participants,0.1316354
+Disease_Area,0.12036867
+Prev_Trial_Score,0.11051576
+Trial_Phase,0.09468649

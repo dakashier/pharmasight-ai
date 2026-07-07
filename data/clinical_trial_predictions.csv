@@ -1,0 +1,501 @@
+Trial_ID,Disease_Area,Drug_Type,Trial_Phase,Participants,Avg_Age,Adverse_Events,Prev_Trial_Score,Trial_Duration_Months,Outcome,Success_Probability,Risk_Score,Trial_Risk_Category
+TRL0001,Diabetes,Small Molecule,Phase II,1317,25,25,49,7,Failure,4.17,95.83,High Risk
+TRL0002,Rare Disease,Gene Therapy,Phase III,1564,32,71,77,30,Success,96.84,3.16,Low Risk
+TRL0003,Neurology,Gene Therapy,Phase I,1922,44,47,86,8,Success,99.92,0.08,Low Risk
+TRL0004,Rare Disease,Biologic,Phase III,1007,63,65,71,13,Success,96.25,3.75,Low Risk
+TRL0005,Rare Disease,Small Molecule,Phase II,1580,67,69,87,38,Success,99.5,0.5,Low Risk
+TRL0006,Cardiology,Biologic,Phase I,414,69,27,67,47,Success,97.66,2.34,Low Risk
+TRL0007,Neurology,Vaccine,Phase I,531,24,92,56,40,Success,96.6,3.4,Low Risk
+TRL0008,Neurology,Vaccine,Phase II,250,20,25,70,11,Failure,99.84,0.16,Low Risk
+TRL0009,Neurology,Biologic,Phase II,203,46,24,47,44,Success,98.65,1.35,Low Risk
+TRL0010,Rare Disease,Gene Therapy,Phase II,1523,61,11,79,28,Success,97.89,2.11,Low Risk
+TRL0011,Diabetes,Gene Therapy,Phase III,1574,70,4,64,30,Success,94.84,5.16,Low Risk
+TRL0012,Neurology,Biologic,Phase III,122,41,97,48,24,Success,99.31,0.69,Low Risk
+TRL0013,Rare Disease,Biologic,Phase I,762,77,47,41,10,Success,97.3,2.7,Low Risk
+TRL0014,Cardiology,Vaccine,Phase II,345,75,36,54,16,Failure,3.39,96.61,High Risk
+TRL0015,Diabetes,Gene Therapy,Phase I,1090,20,78,89,17,Failure,5.46,94.54,High Risk
+TRL0016,Cardiology,Biologic,Phase I,1714,37,43,42,15,Success,97.62,2.38,Low Risk
+TRL0017,Diabetes,Vaccine,Phase I,1290,63,99,88,13,Success,95.92,4.08,Low Risk
+TRL0018,Rare Disease,Gene Therapy,Phase I,110,32,14,75,29,Failure,4.5,95.5,High Risk
+TRL0019,Oncology,Small Molecule,Phase II,988,42,42,43,33,Success,99.83,0.17,Low Risk
+TRL0020,Diabetes,Vaccine,Phase I,1689,47,47,53,46,Success,97.17,2.83,Low Risk
+TRL0021,Cardiology,Gene Therapy,Phase II,91,31,86,80,41,Success,98.57,1.43,Low Risk
+TRL0022,Rare Disease,Gene Therapy,Phase II,74,24,69,80,42,Success,99.32,0.68,Low Risk
+TRL0023,Diabetes,Vaccine,Phase III,1112,34,45,64,26,Success,94.81,5.19,Low Risk
+TRL0024,Oncology,Small Molecule,Phase II,1876,79,42,97,13,Success,98.25,1.75,Low Risk
+TRL0025,Oncology,Vaccine,Phase III,180,61,20,94,14,Success,97.46,2.54,Low Risk
+TRL0026,Neurology,Gene Therapy,Phase II,1571,37,22,89,20,Failure,13.12,86.88,High Risk
+TRL0027,Neurology,Biologic,Phase II,1302,53,79,49,45,Success,97.0,3.0,Low Risk
+TRL0028,Cardiology,Biologic,Phase II,157,26,46,60,23,Failure,11.2,88.8,High Risk
+TRL0029,Diabetes,Vaccine,Phase III,221,55,14,75,47,Failure,11.6,88.4,High Risk
+TRL0030,Diabetes,Gene Therapy,Phase III,1508,65,24,51,25,Success,93.73,6.27,Low Risk
+TRL0031,Neurology,Biologic,Phase I,1551,74,35,66,11,Success,98.11,1.89,Low Risk
+TRL0032,Diabetes,Gene Therapy,Phase III,151,77,74,79,17,Success,98.08,1.92,Low Risk
+TRL0033,Diabetes,Vaccine,Phase III,915,39,50,41,7,Success,92.75,7.25,Low Risk
+TRL0034,Oncology,Biologic,Phase III,573,71,14,93,12,Failure,2.31,97.69,High Risk
+TRL0035,Neurology,Gene Therapy,Phase III,324,70,67,52,21,Success,97.84,2.16,Low Risk
+TRL0036,Rare Disease,Biologic,Phase I,1686,70,20,92,8,Failure,1.74,98.26,High Risk
+TRL0037,Neurology,Vaccine,Phase III,1117,19,12,71,8,Success,96.59,3.41,Low Risk
+TRL0038,Rare Disease,Gene Therapy,Phase II,866,41,85,70,32,Success,78.39,21.61,Low Risk
+TRL0039,Oncology,Biologic,Phase II,1006,25,18,55,45,Success,99.69,0.31,Low Risk
+TRL0040,Cardiology,Vaccine,Phase III,1090,28,33,71,43,Success,97.62,2.38,Low Risk
+TRL0041,Diabetes,Biologic,Phase III,379,30,77,71,38,Success,91.86,8.14,Low Risk
+TRL0042,Oncology,Biologic,Phase II,1642,34,67,99,33,Success,98.49,1.51,Low Risk
+TRL0043,Diabetes,Small Molecule,Phase II,1896,25,51,73,6,Success,94.05,5.95,Low Risk
+TRL0044,Cardiology,Small Molecule,Phase I,1570,38,26,50,13,Success,95.82,4.18,Low Risk
+TRL0045,Cardiology,Vaccine,Phase II,1888,35,28,49,42,Failure,8.63,91.37,High Risk
+TRL0046,Oncology,Small Molecule,Phase II,61,47,27,54,37,Success,98.79,1.21,Low Risk
+TRL0047,Cardiology,Vaccine,Phase III,1391,35,34,56,42,Failure,2.56,97.44,High Risk
+TRL0048,Rare Disease,Small Molecule,Phase II,1665,63,7,79,9,Failure,6.23,93.77,High Risk
+TRL0049,Cardiology,Biologic,Phase I,265,64,15,57,35,Failure,8.53,91.47,High Risk
+TRL0050,Diabetes,Vaccine,Phase II,388,48,35,94,11,Success,99.76,0.24,Low Risk
+TRL0051,Diabetes,Vaccine,Phase III,1849,55,29,48,24,Failure,72.29,27.71,Low Risk
+TRL0052,Diabetes,Biologic,Phase III,710,49,17,64,37,Success,97.01,2.99,Low Risk
+TRL0053,Diabetes,Vaccine,Phase II,1154,28,1,79,14,Success,99.36,0.64,Low Risk
+TRL0054,Rare Disease,Vaccine,Phase III,1800,62,48,98,17,Success,98.64,1.36,Low Risk
+TRL0055,Neurology,Small Molecule,Phase I,1558,42,76,53,16,Failure,4.46,95.54,High Risk
+TRL0056,Oncology,Vaccine,Phase I,423,50,3,99,21,Success,97.68,2.32,Low Risk
+TRL0057,Diabetes,Gene Therapy,Phase II,1025,77,89,97,6,Failure,0.67,99.33,High Risk
+TRL0058,Cardiology,Biologic,Phase II,759,55,88,64,26,Success,96.74,3.26,Low Risk
+TRL0059,Diabetes,Small Molecule,Phase II,1273,58,93,89,35,Failure,11.59,88.41,High Risk
+TRL0060,Cardiology,Small Molecule,Phase III,1610,25,74,61,18,Failure,5.11,94.89,High Risk
+TRL0061,Cardiology,Gene Therapy,Phase I,515,28,6,91,39,Success,96.09,3.91,Low Risk
+TRL0062,Diabetes,Biologic,Phase I,1162,39,94,69,9,Failure,3.13,96.87,High Risk
+TRL0063,Rare Disease,Biologic,Phase III,1341,68,73,59,33,Success,99.27,0.73,Low Risk
+TRL0064,Cardiology,Small Molecule,Phase I,1728,41,38,60,43,Success,95.45,4.55,Low Risk
+TRL0065,Cardiology,Vaccine,Phase II,1644,58,12,83,36,Success,96.85,3.15,Low Risk
+TRL0066,Diabetes,Small Molecule,Phase II,1995,34,30,71,32,Success,99.24,0.76,Low Risk
+TRL0067,Cardiology,Biologic,Phase II,538,29,70,90,10,Success,98.87,1.13,Low Risk
+TRL0068,Cardiology,Gene Therapy,Phase I,1950,74,62,85,30,Success,99.47,0.53,Low Risk
+TRL0069,Diabetes,Small Molecule,Phase II,1611,63,55,88,8,Success,95.27,4.73,Low Risk
+TRL0070,Diabetes,Biologic,Phase III,96,49,41,95,38,Failure,98.75,1.25,Low Risk
+TRL0071,Oncology,Small Molecule,Phase III,1361,32,60,60,9,Failure,74.0,26.0,Low Risk
+TRL0072,Rare Disease,Vaccine,Phase I,827,33,41,74,30,Failure,4.12,95.88,High Risk
+TRL0073,Rare Disease,Small Molecule,Phase III,1089,71,55,97,25,Failure,5.03,94.97,High Risk
+TRL0074,Cardiology,Small Molecule,Phase III,760,39,35,71,39,Failure,4.04,95.96,High Risk
+TRL0075,Rare Disease,Biologic,Phase I,450,45,83,69,31,Success,93.8,6.2,Low Risk
+TRL0076,Cardiology,Biologic,Phase II,1992,37,67,94,10,Success,97.24,2.76,Low Risk
+TRL0077,Oncology,Biologic,Phase II,1867,50,6,78,40,Failure,6.53,93.47,High Risk
+TRL0078,Diabetes,Small Molecule,Phase II,1030,27,53,88,33,Success,95.94,4.06,Low Risk
+TRL0079,Diabetes,Vaccine,Phase I,1159,57,0,51,34,Success,88.36,11.64,Low Risk
+TRL0080,Diabetes,Gene Therapy,Phase III,299,49,43,80,14,Success,96.89,3.11,Low Risk
+TRL0081,Rare Disease,Gene Therapy,Phase II,440,67,44,86,43,Success,96.71,3.29,Low Risk
+TRL0082,Oncology,Biologic,Phase II,1855,77,46,57,11,Success,99.05,0.95,Low Risk
+TRL0083,Rare Disease,Biologic,Phase I,384,50,12,60,24,Success,96.91,3.09,Low Risk
+TRL0084,Rare Disease,Small Molecule,Phase II,678,19,21,52,16,Success,94.07,5.93,Low Risk
+TRL0085,Oncology,Gene Therapy,Phase I,1592,50,20,60,7,Success,85.04,14.96,Low Risk
+TRL0086,Oncology,Biologic,Phase III,186,50,85,47,14,Success,99.24,0.76,Low Risk
+TRL0087,Oncology,Vaccine,Phase I,932,58,91,85,26,Success,98.4,1.6,Low Risk
+TRL0088,Oncology,Vaccine,Phase I,737,30,8,79,29,Failure,13.73,86.27,High Risk
+TRL0089,Diabetes,Biologic,Phase I,1913,47,25,85,39,Success,97.0,3.0,Low Risk
+TRL0090,Neurology,Biologic,Phase I,1571,50,8,46,27,Success,98.59,1.41,Low Risk
+TRL0091,Neurology,Gene Therapy,Phase III,876,30,14,62,8,Failure,4.53,95.47,High Risk
+TRL0092,Oncology,Gene Therapy,Phase III,776,69,9,83,17,Success,94.35,5.65,Low Risk
+TRL0093,Neurology,Small Molecule,Phase II,1550,43,87,71,33,Success,98.28,1.72,Low Risk
+TRL0094,Neurology,Gene Therapy,Phase III,643,39,41,50,35,Success,97.34,2.66,Low Risk
+TRL0095,Oncology,Vaccine,Phase III,1296,56,71,61,31,Failure,9.01,90.99,High Risk
+TRL0096,Neurology,Vaccine,Phase II,1039,19,23,61,26,Success,99.89,0.11,Low Risk
+TRL0097,Rare Disease,Biologic,Phase III,421,55,79,82,33,Success,97.48,2.52,Low Risk
+TRL0098,Cardiology,Gene Therapy,Phase I,984,56,48,64,31,Failure,8.8,91.2,High Risk
+TRL0099,Cardiology,Small Molecule,Phase I,1044,43,25,61,38,Success,93.0,7.0,Low Risk
+TRL0100,Oncology,Vaccine,Phase II,451,63,90,67,26,Success,98.71,1.29,Low Risk
+TRL0101,Diabetes,Vaccine,Phase II,1516,75,36,68,40,Success,95.2,4.8,Low Risk
+TRL0102,Oncology,Small Molecule,Phase II,1563,67,67,52,39,Success,98.46,1.54,Low Risk
+TRL0103,Diabetes,Small Molecule,Phase I,664,32,49,57,46,Success,97.98,2.02,Low Risk
+TRL0104,Cardiology,Vaccine,Phase III,1346,51,23,41,23,Success,97.12,2.88,Low Risk
+TRL0105,Oncology,Vaccine,Phase I,1599,59,18,68,16,Failure,5.55,94.45,High Risk
+TRL0106,Rare Disease,Small Molecule,Phase II,1232,72,99,60,28,Success,99.02,0.98,Low Risk
+TRL0107,Neurology,Vaccine,Phase III,1225,61,59,54,27,Success,98.36,1.64,Low Risk
+TRL0108,Diabetes,Biologic,Phase III,1044,66,38,91,22,Success,94.91,5.09,Low Risk
+TRL0109,Neurology,Biologic,Phase I,669,57,73,66,10,Success,95.07,4.93,Low Risk
+TRL0110,Neurology,Small Molecule,Phase II,237,28,88,89,16,Success,97.6,2.4,Low Risk
+TRL0111,Oncology,Gene Therapy,Phase I,1886,78,17,70,35,Failure,5.56,94.44,High Risk
+TRL0112,Neurology,Small Molecule,Phase III,1171,20,18,54,20,Success,99.64,0.36,Low Risk
+TRL0113,Rare Disease,Small Molecule,Phase I,180,76,35,90,32,Failure,3.05,96.95,High Risk
+TRL0114,Neurology,Gene Therapy,Phase I,854,23,73,62,40,Failure,3.39,96.61,High Risk
+TRL0115,Oncology,Gene Therapy,Phase II,1244,26,96,63,38,Success,30.84,69.16,High Risk
+TRL0116,Rare Disease,Gene Therapy,Phase II,985,23,54,83,25,Failure,5.96,94.04,High Risk
+TRL0117,Cardiology,Biologic,Phase III,1035,26,68,52,21,Success,97.95,2.05,Low Risk
+TRL0118,Neurology,Vaccine,Phase I,232,56,46,61,39,Success,97.02,2.98,Low Risk
+TRL0119,Oncology,Biologic,Phase I,1032,48,48,82,7,Success,97.31,2.69,Low Risk
+TRL0120,Cardiology,Vaccine,Phase I,413,49,98,76,40,Success,98.65,1.35,Low Risk
+TRL0121,Cardiology,Biologic,Phase III,88,58,97,72,45,Success,97.07,2.93,Low Risk
+TRL0122,Diabetes,Vaccine,Phase III,1600,67,32,95,33,Success,98.94,1.06,Low Risk
+TRL0123,Rare Disease,Biologic,Phase II,1961,29,20,42,44,Success,97.75,2.25,Low Risk
+TRL0124,Neurology,Gene Therapy,Phase II,546,25,80,93,11,Success,99.01,0.99,Low Risk
+TRL0125,Oncology,Small Molecule,Phase II,1589,25,21,58,14,Success,99.44,0.56,Low Risk
+TRL0126,Diabetes,Biologic,Phase I,1422,67,47,62,25,Failure,4.99,95.01,High Risk
+TRL0127,Rare Disease,Vaccine,Phase I,1031,45,36,68,6,Failure,8.02,91.98,High Risk
+TRL0128,Diabetes,Gene Therapy,Phase II,970,79,14,69,13,Success,98.05,1.95,Low Risk
+TRL0129,Rare Disease,Biologic,Phase I,1470,37,34,78,28,Success,96.53,3.47,Low Risk
+TRL0130,Rare Disease,Biologic,Phase II,771,79,91,83,8,Failure,16.58,83.42,High Risk
+TRL0131,Neurology,Gene Therapy,Phase III,1234,64,70,86,9,Failure,5.18,94.82,High Risk
+TRL0132,Rare Disease,Biologic,Phase II,65,76,31,64,30,Failure,7.4,92.6,High Risk
+TRL0133,Diabetes,Small Molecule,Phase III,542,24,10,76,43,Success,98.0,2.0,Low Risk
+TRL0134,Rare Disease,Biologic,Phase I,1499,28,9,86,20,Success,96.91,3.09,Low Risk
+TRL0135,Neurology,Small Molecule,Phase II,1181,37,72,47,26,Success,98.9,1.1,Low Risk
+TRL0136,Neurology,Small Molecule,Phase I,943,33,77,81,40,Success,36.97,63.03,High Risk
+TRL0137,Diabetes,Gene Therapy,Phase III,1523,21,76,97,19,Failure,0.32,99.68,High Risk
+TRL0138,Cardiology,Biologic,Phase III,360,23,56,55,41,Failure,8.21,91.79,High Risk
+TRL0139,Cardiology,Gene Therapy,Phase III,788,75,24,47,17,Success,72.8,27.2,Low Risk
+TRL0140,Rare Disease,Biologic,Phase I,1243,39,1,40,22,Failure,9.11,90.89,High Risk
+TRL0141,Oncology,Biologic,Phase I,595,43,63,83,44,Success,99.3,0.7,Low Risk
+TRL0142,Rare Disease,Vaccine,Phase I,463,20,34,44,14,Success,98.15,1.85,Low Risk
+TRL0143,Diabetes,Biologic,Phase I,300,58,6,42,40,Success,86.86,13.14,Low Risk
+TRL0144,Diabetes,Gene Therapy,Phase III,808,77,84,40,18,Failure,8.61,91.39,High Risk
+TRL0145,Diabetes,Small Molecule,Phase III,1854,59,17,43,20,Success,84.49,15.51,Low Risk
+TRL0146,Diabetes,Biologic,Phase II,1214,31,66,79,23,Failure,1.3,98.7,High Risk
+TRL0147,Diabetes,Vaccine,Phase II,1347,28,41,74,38,Failure,5.74,94.26,High Risk
+TRL0148,Neurology,Gene Therapy,Phase I,1489,35,38,71,11,Success,97.9,2.1,Low Risk
+TRL0149,Cardiology,Biologic,Phase III,1681,71,40,81,32,Success,99.49,0.51,Low Risk
+TRL0150,Diabetes,Gene Therapy,Phase III,1812,29,74,73,28,Failure,5.35,94.65,High Risk
+TRL0151,Oncology,Vaccine,Phase III,1964,40,23,82,32,Success,99.41,0.59,Low Risk
+TRL0152,Oncology,Vaccine,Phase II,1112,29,59,64,39,Failure,7.96,92.04,High Risk
+TRL0153,Oncology,Gene Therapy,Phase II,863,30,45,49,43,Failure,78.85,21.15,Low Risk
+TRL0154,Oncology,Biologic,Phase III,78,42,18,60,19,Success,98.2,1.8,Low Risk
+TRL0155,Neurology,Small Molecule,Phase III,1007,62,67,85,41,Success,99.2,0.8,Low Risk
+TRL0156,Oncology,Vaccine,Phase III,526,68,89,78,13,Failure,6.9,93.1,High Risk
+TRL0157,Diabetes,Biologic,Phase II,367,75,41,66,40,Success,98.35,1.65,Low Risk
+TRL0158,Rare Disease,Biologic,Phase III,294,36,31,66,24,Success,42.41,57.59,Medium Risk
+TRL0159,Oncology,Small Molecule,Phase III,797,72,38,41,35,Success,96.15,3.85,Low Risk
+TRL0160,Neurology,Vaccine,Phase I,746,63,35,80,19,Success,98.0,2.0,Low Risk
+TRL0161,Neurology,Vaccine,Phase I,321,53,96,87,25,Failure,99.8,0.2,Low Risk
+TRL0162,Oncology,Biologic,Phase II,1513,62,35,52,30,Failure,9.67,90.33,High Risk
+TRL0163,Rare Disease,Biologic,Phase III,1821,25,2,48,45,Success,96.26,3.74,Low Risk
+TRL0164,Oncology,Small Molecule,Phase III,1312,46,72,91,29,Success,96.24,3.76,Low Risk
+TRL0165,Neurology,Small Molecule,Phase I,426,72,7,75,19,Success,18.89,81.11,High Risk
+TRL0166,Cardiology,Vaccine,Phase II,315,70,96,61,31,Failure,95.69,4.31,Low Risk
+TRL0167,Diabetes,Gene Therapy,Phase I,975,72,69,81,43,Success,96.29,3.71,Low Risk
+TRL0168,Neurology,Vaccine,Phase I,970,49,40,65,28,Success,98.59,1.41,Low Risk
+TRL0169,Oncology,Biologic,Phase I,1432,68,67,97,27,Success,78.01,21.99,Low Risk
+TRL0170,Diabetes,Vaccine,Phase I,389,61,12,93,24,Success,98.49,1.51,Low Risk
+TRL0171,Oncology,Gene Therapy,Phase III,438,35,48,51,8,Failure,5.57,94.43,High Risk
+TRL0172,Oncology,Small Molecule,Phase III,626,23,59,56,47,Success,95.33,4.67,Low Risk
+TRL0173,Cardiology,Gene Therapy,Phase I,1762,35,1,53,24,Success,98.05,1.95,Low Risk
+TRL0174,Diabetes,Gene Therapy,Phase II,52,36,59,53,14,Success,95.05,4.95,Low Risk
+TRL0175,Diabetes,Gene Therapy,Phase II,1502,39,4,96,33,Failure,82.49,17.51,Low Risk
+TRL0176,Cardiology,Small Molecule,Phase II,1215,54,43,73,25,Success,74.53,25.47,Low Risk
+TRL0177,Neurology,Gene Therapy,Phase II,425,49,26,92,12,Success,99.83,0.17,Low Risk
+TRL0178,Oncology,Gene Therapy,Phase I,1743,73,31,96,19,Success,18.95,81.05,High Risk
+TRL0179,Rare Disease,Gene Therapy,Phase III,373,58,20,59,14,Failure,14.7,85.3,High Risk
+TRL0180,Oncology,Biologic,Phase II,195,76,7,50,24,Success,86.16,13.84,Low Risk
+TRL0181,Oncology,Gene Therapy,Phase I,342,20,71,55,19,Success,96.3,3.7,Low Risk
+TRL0182,Neurology,Small Molecule,Phase II,1738,45,49,90,43,Success,99.26,0.74,Low Risk
+TRL0183,Oncology,Gene Therapy,Phase II,481,27,66,70,41,Failure,5.56,94.44,High Risk
+TRL0184,Cardiology,Gene Therapy,Phase I,754,68,43,94,45,Success,94.36,5.64,Low Risk
+TRL0185,Cardiology,Small Molecule,Phase III,998,52,57,45,22,Failure,99.67,0.33,Low Risk
+TRL0186,Diabetes,Gene Therapy,Phase III,634,78,2,95,35,Success,3.85,96.15,High Risk
+TRL0187,Rare Disease,Small Molecule,Phase I,448,46,85,58,14,Success,96.4,3.6,Low Risk
+TRL0188,Oncology,Gene Therapy,Phase III,866,71,69,76,38,Success,41.5,58.5,Medium Risk
+TRL0189,Oncology,Small Molecule,Phase I,1962,32,1,97,30,Failure,92.59,7.41,Low Risk
+TRL0190,Neurology,Gene Therapy,Phase I,1417,50,86,43,19,Success,97.03,2.97,Low Risk
+TRL0191,Cardiology,Gene Therapy,Phase I,1013,24,43,86,16,Failure,3.72,96.28,High Risk
+TRL0192,Rare Disease,Biologic,Phase III,1213,29,1,43,40,Failure,2.47,97.53,High Risk
+TRL0193,Diabetes,Biologic,Phase I,236,66,80,59,46,Success,97.41,2.59,Low Risk
+TRL0194,Cardiology,Gene Therapy,Phase II,1878,47,34,49,19,Failure,6.16,93.84,High Risk
+TRL0195,Diabetes,Gene Therapy,Phase III,110,38,97,63,35,Failure,10.52,89.48,High Risk
+TRL0196,Neurology,Vaccine,Phase III,988,48,86,93,46,Success,96.46,3.54,Low Risk
+TRL0197,Neurology,Small Molecule,Phase III,1453,75,29,74,9,Success,5.53,94.47,High Risk
+TRL0198,Oncology,Vaccine,Phase III,759,78,7,65,9,Failure,7.16,92.84,High Risk
+TRL0199,Rare Disease,Biologic,Phase II,856,41,21,76,33,Success,97.41,2.59,Low Risk
+TRL0200,Diabetes,Biologic,Phase III,1513,37,43,77,13,Failure,5.67,94.33,High Risk
+TRL0201,Cardiology,Biologic,Phase III,1392,54,57,60,7,Failure,4.13,95.87,High Risk
+TRL0202,Neurology,Biologic,Phase I,1375,21,35,93,46,Success,99.6,0.4,Low Risk
+TRL0203,Oncology,Gene Therapy,Phase III,1417,45,68,79,27,Success,93.64,6.36,Low Risk
+TRL0204,Oncology,Biologic,Phase II,60,61,76,78,46,Success,99.92,0.08,Low Risk
+TRL0205,Diabetes,Gene Therapy,Phase II,1135,79,92,60,21,Success,92.57,7.43,Low Risk
+TRL0206,Neurology,Gene Therapy,Phase II,1918,37,30,49,34,Success,92.83,7.17,Low Risk
+TRL0207,Rare Disease,Biologic,Phase II,275,77,46,77,35,Success,97.83,2.17,Low Risk
+TRL0208,Neurology,Biologic,Phase III,1226,41,54,85,17,Success,94.97,5.03,Low Risk
+TRL0209,Diabetes,Small Molecule,Phase III,1784,67,79,43,40,Failure,4.69,95.31,High Risk
+TRL0210,Diabetes,Vaccine,Phase II,613,66,61,99,16,Failure,9.57,90.43,High Risk
+TRL0211,Neurology,Biologic,Phase II,821,68,29,96,26,Success,96.54,3.46,Low Risk
+TRL0212,Diabetes,Small Molecule,Phase III,1644,49,54,84,26,Success,99.86,0.14,Low Risk
+TRL0213,Neurology,Small Molecule,Phase II,1657,58,15,59,10,Success,99.11,0.89,Low Risk
+TRL0214,Cardiology,Vaccine,Phase I,1733,53,11,56,25,Success,99.0,1.0,Low Risk
+TRL0215,Neurology,Gene Therapy,Phase II,1934,75,16,94,42,Failure,3.13,96.87,High Risk
+TRL0216,Neurology,Biologic,Phase II,1648,70,15,46,8,Failure,2.4,97.6,High Risk
+TRL0217,Diabetes,Vaccine,Phase I,1383,51,11,43,38,Failure,8.06,91.94,High Risk
+TRL0218,Diabetes,Biologic,Phase I,934,53,7,68,14,Failure,96.26,3.74,Low Risk
+TRL0219,Oncology,Small Molecule,Phase III,1316,19,83,53,14,Success,99.28,0.72,Low Risk
+TRL0220,Oncology,Small Molecule,Phase III,1566,32,2,42,9,Failure,1.53,98.47,High Risk
+TRL0221,Cardiology,Gene Therapy,Phase I,1439,51,15,63,40,Success,23.12,76.88,High Risk
+TRL0222,Oncology,Small Molecule,Phase I,1403,53,29,76,22,Failure,8.74,91.26,High Risk
+TRL0223,Neurology,Small Molecule,Phase III,1180,23,22,55,39,Success,99.34,0.66,Low Risk
+TRL0224,Diabetes,Vaccine,Phase II,275,56,91,97,29,Failure,90.83,9.17,Low Risk
+TRL0225,Oncology,Biologic,Phase I,874,59,4,94,37,Failure,2.82,97.18,High Risk
+TRL0226,Oncology,Biologic,Phase III,267,68,83,91,6,Success,96.31,3.69,Low Risk
+TRL0227,Cardiology,Vaccine,Phase II,986,68,64,43,13,Success,99.35,0.65,Low Risk
+TRL0228,Cardiology,Gene Therapy,Phase I,802,75,29,95,28,Failure,2.84,97.16,High Risk
+TRL0229,Neurology,Biologic,Phase II,555,71,20,63,45,Success,78.76,21.24,Low Risk
+TRL0230,Diabetes,Small Molecule,Phase III,308,78,83,73,17,Success,98.06,1.94,Low Risk
+TRL0231,Cardiology,Biologic,Phase I,1961,29,69,69,17,Success,95.19,4.81,Low Risk
+TRL0232,Oncology,Small Molecule,Phase II,1847,20,21,57,20,Success,99.56,0.44,Low Risk
+TRL0233,Diabetes,Gene Therapy,Phase I,1590,62,81,58,46,Failure,7.87,92.13,High Risk
+TRL0234,Diabetes,Vaccine,Phase II,1846,35,71,70,24,Success,95.13,4.87,Low Risk
+TRL0235,Oncology,Biologic,Phase III,103,57,31,99,31,Success,97.46,2.54,Low Risk
+TRL0236,Cardiology,Vaccine,Phase III,1120,38,32,99,34,Success,98.42,1.58,Low Risk
+TRL0237,Oncology,Biologic,Phase I,776,32,15,58,27,Success,97.05,2.95,Low Risk
+TRL0238,Diabetes,Small Molecule,Phase II,738,50,75,88,45,Success,97.82,2.18,Low Risk
+TRL0239,Rare Disease,Vaccine,Phase I,1594,52,37,85,26,Success,99.34,0.66,Low Risk
+TRL0240,Rare Disease,Biologic,Phase I,1172,43,97,58,43,Success,98.84,1.16,Low Risk
+TRL0241,Neurology,Small Molecule,Phase II,1093,25,13,61,25,Success,99.85,0.15,Low Risk
+TRL0242,Oncology,Vaccine,Phase II,1963,53,35,63,34,Failure,8.23,91.77,High Risk
+TRL0243,Oncology,Vaccine,Phase II,1826,65,96,84,9,Success,99.16,0.84,Low Risk
+TRL0244,Neurology,Biologic,Phase III,1646,47,22,51,12,Success,92.04,7.96,Low Risk
+TRL0245,Neurology,Biologic,Phase I,1964,40,65,69,33,Success,99.84,0.16,Low Risk
+TRL0246,Neurology,Biologic,Phase I,1563,59,84,97,33,Success,91.23,8.77,Low Risk
+TRL0247,Diabetes,Small Molecule,Phase III,468,61,1,77,9,Success,95.15,4.85,Low Risk
+TRL0248,Oncology,Biologic,Phase II,739,31,90,92,27,Success,94.28,5.72,Low Risk
+TRL0249,Diabetes,Vaccine,Phase III,899,31,72,70,17,Failure,6.03,93.97,High Risk
+TRL0250,Neurology,Vaccine,Phase III,111,19,64,75,8,Success,98.71,1.29,Low Risk
+TRL0251,Oncology,Biologic,Phase III,1218,72,74,58,27,Success,97.22,2.78,Low Risk
+TRL0252,Diabetes,Biologic,Phase I,265,54,66,87,7,Failure,14.2,85.8,High Risk
+TRL0253,Diabetes,Gene Therapy,Phase III,52,22,51,84,29,Success,76.67,23.33,Low Risk
+TRL0254,Neurology,Vaccine,Phase I,209,55,61,75,39,Success,99.19,0.81,Low Risk
+TRL0255,Oncology,Small Molecule,Phase I,1812,62,22,69,32,Success,95.6,4.4,Low Risk
+TRL0256,Neurology,Gene Therapy,Phase I,830,58,25,94,46,Success,97.04,2.96,Low Risk
+TRL0257,Oncology,Biologic,Phase II,1193,79,67,88,6,Failure,2.63,97.37,High Risk
+TRL0258,Rare Disease,Biologic,Phase I,942,71,81,94,13,Failure,4.27,95.73,High Risk
+TRL0259,Cardiology,Vaccine,Phase I,1162,77,54,72,28,Failure,7.11,92.89,High Risk
+TRL0260,Cardiology,Biologic,Phase II,378,78,5,57,43,Success,98.09,1.91,Low Risk
+TRL0261,Cardiology,Small Molecule,Phase I,629,64,34,91,11,Success,98.04,1.96,Low Risk
+TRL0262,Neurology,Vaccine,Phase III,1983,31,21,88,27,Success,99.73,0.27,Low Risk
+TRL0263,Rare Disease,Biologic,Phase III,1430,73,42,98,30,Success,96.84,3.16,Low Risk
+TRL0264,Oncology,Vaccine,Phase I,1683,56,14,67,23,Success,89.42,10.58,Low Risk
+TRL0265,Diabetes,Biologic,Phase II,1340,42,85,98,22,Failure,4.91,95.09,High Risk
+TRL0266,Oncology,Biologic,Phase III,1690,37,59,86,17,Success,99.51,0.49,Low Risk
+TRL0267,Diabetes,Biologic,Phase II,1001,19,11,50,11,Success,99.74,0.26,Low Risk
+TRL0268,Oncology,Small Molecule,Phase II,1396,56,48,96,31,Success,97.77,2.23,Low Risk
+TRL0269,Rare Disease,Small Molecule,Phase III,684,23,41,99,32,Success,75.88,24.12,Low Risk
+TRL0270,Diabetes,Vaccine,Phase II,1037,34,37,93,13,Success,99.83,0.17,Low Risk
+TRL0271,Neurology,Biologic,Phase III,1614,76,81,84,24,Failure,4.24,95.76,High Risk
+TRL0272,Oncology,Biologic,Phase II,1722,42,44,72,47,Success,99.78,0.22,Low Risk
+TRL0273,Oncology,Small Molecule,Phase III,1268,74,34,56,6,Failure,0.9,99.1,High Risk
+TRL0274,Diabetes,Biologic,Phase I,970,45,29,45,34,Success,49.47,50.53,Medium Risk
+TRL0275,Neurology,Small Molecule,Phase III,787,19,87,43,40,Failure,97.52,2.48,Low Risk
+TRL0276,Neurology,Biologic,Phase III,1405,52,29,59,45,Failure,72.01,27.99,Low Risk
+TRL0277,Rare Disease,Vaccine,Phase III,219,54,77,87,19,Success,99.6,0.4,Low Risk
+TRL0278,Neurology,Biologic,Phase III,570,22,5,86,40,Success,97.2,2.8,Low Risk
+TRL0279,Neurology,Biologic,Phase II,1536,18,66,66,25,Failure,2.85,97.15,High Risk
+TRL0280,Neurology,Gene Therapy,Phase I,89,57,79,54,18,Success,98.9,1.1,Low Risk
+TRL0281,Cardiology,Small Molecule,Phase III,1610,29,6,45,43,Failure,4.86,95.14,High Risk
+TRL0282,Rare Disease,Biologic,Phase II,1334,73,51,86,13,Success,97.77,2.23,Low Risk
+TRL0283,Oncology,Biologic,Phase I,1468,53,13,53,25,Success,98.64,1.36,Low Risk
+TRL0284,Diabetes,Gene Therapy,Phase I,1004,62,72,99,38,Failure,4.22,95.78,High Risk
+TRL0285,Oncology,Gene Therapy,Phase I,1299,40,14,50,31,Failure,66.67,33.33,Medium Risk
+TRL0286,Rare Disease,Small Molecule,Phase I,1033,64,20,78,44,Success,99.29,0.71,Low Risk
+TRL0287,Diabetes,Gene Therapy,Phase III,1197,48,34,48,26,Failure,10.82,89.18,High Risk
+TRL0288,Rare Disease,Vaccine,Phase III,1024,28,65,65,47,Success,97.4,2.6,Low Risk
+TRL0289,Neurology,Gene Therapy,Phase II,87,27,90,55,46,Success,96.24,3.76,Low Risk
+TRL0290,Diabetes,Vaccine,Phase II,377,20,1,44,14,Success,99.69,0.31,Low Risk
+TRL0291,Neurology,Small Molecule,Phase II,1324,71,34,96,29,Success,98.25,1.75,Low Risk
+TRL0292,Oncology,Small Molecule,Phase I,1974,31,81,91,42,Failure,12.14,87.86,High Risk
+TRL0293,Oncology,Small Molecule,Phase I,1249,33,77,49,46,Success,92.37,7.63,Low Risk
+TRL0294,Diabetes,Small Molecule,Phase III,1675,27,19,89,22,Success,98.53,1.47,Low Risk
+TRL0295,Diabetes,Small Molecule,Phase I,963,46,81,42,29,Success,99.27,0.73,Low Risk
+TRL0296,Rare Disease,Vaccine,Phase I,503,27,9,52,26,Success,94.77,5.23,Low Risk
+TRL0297,Rare Disease,Vaccine,Phase I,86,29,24,82,44,Success,99.22,0.78,Low Risk
+TRL0298,Neurology,Small Molecule,Phase II,1389,47,65,88,46,Failure,10.83,89.17,High Risk
+TRL0299,Diabetes,Gene Therapy,Phase II,1761,58,24,69,44,Success,97.11,2.89,Low Risk
+TRL0300,Oncology,Biologic,Phase III,1022,18,53,93,18,Failure,8.8,91.2,High Risk
+TRL0301,Rare Disease,Small Molecule,Phase I,845,22,32,84,16,Failure,3.6,96.4,High Risk
+TRL0302,Rare Disease,Gene Therapy,Phase I,1022,37,35,45,24,Success,96.28,3.72,Low Risk
+TRL0303,Oncology,Biologic,Phase III,642,25,94,56,16,Failure,6.37,93.63,High Risk
+TRL0304,Rare Disease,Small Molecule,Phase I,1187,60,13,98,18,Failure,67.2,32.8,Medium Risk
+TRL0305,Neurology,Small Molecule,Phase I,1113,29,64,84,6,Success,97.67,2.33,Low Risk
+TRL0306,Diabetes,Vaccine,Phase II,1374,18,79,90,45,Success,93.62,6.38,Low Risk
+TRL0307,Oncology,Biologic,Phase III,273,74,53,92,24,Success,94.43,5.57,Low Risk
+TRL0308,Diabetes,Biologic,Phase III,367,71,51,58,17,Success,96.13,3.87,Low Risk
+TRL0309,Rare Disease,Gene Therapy,Phase III,398,37,2,81,13,Failure,4.56,95.44,High Risk
+TRL0310,Rare Disease,Vaccine,Phase III,164,45,98,74,13,Success,99.01,0.99,Low Risk
+TRL0311,Oncology,Vaccine,Phase II,747,74,40,85,17,Failure,5.77,94.23,High Risk
+TRL0312,Neurology,Vaccine,Phase II,1396,60,5,65,38,Success,95.15,4.85,Low Risk
+TRL0313,Cardiology,Vaccine,Phase I,1641,54,24,90,31,Success,99.67,0.33,Low Risk
+TRL0314,Oncology,Biologic,Phase I,1113,64,12,44,44,Failure,82.75,17.25,Low Risk
+TRL0315,Cardiology,Biologic,Phase I,1939,54,97,68,33,Success,98.83,1.17,Low Risk
+TRL0316,Cardiology,Small Molecule,Phase I,89,29,7,76,10,Success,98.75,1.25,Low Risk
+TRL0317,Neurology,Small Molecule,Phase II,1932,54,20,59,13,Success,99.75,0.25,Low Risk
+TRL0318,Cardiology,Vaccine,Phase III,1822,66,97,88,30,Success,98.66,1.34,Low Risk
+TRL0319,Cardiology,Vaccine,Phase II,1362,66,67,60,32,Success,93.47,6.53,Low Risk
+TRL0320,Neurology,Vaccine,Phase I,1335,73,24,49,28,Success,98.22,1.78,Low Risk
+TRL0321,Cardiology,Small Molecule,Phase II,265,61,78,44,35,Success,99.84,0.16,Low Risk
+TRL0322,Cardiology,Gene Therapy,Phase III,1220,73,67,75,28,Failure,50.37,49.63,Medium Risk
+TRL0323,Cardiology,Gene Therapy,Phase III,385,45,44,45,25,Success,99.33,0.67,Low Risk
+TRL0324,Oncology,Small Molecule,Phase II,1241,64,59,65,23,Success,93.21,6.79,Low Risk
+TRL0325,Oncology,Small Molecule,Phase II,141,32,11,43,23,Success,97.02,2.98,Low Risk
+TRL0326,Oncology,Small Molecule,Phase II,402,23,31,78,7,Failure,2.16,97.84,High Risk
+TRL0327,Neurology,Small Molecule,Phase I,620,61,95,78,9,Success,98.12,1.88,Low Risk
+TRL0328,Rare Disease,Small Molecule,Phase II,1644,76,91,89,35,Success,91.69,8.31,Low Risk
+TRL0329,Cardiology,Small Molecule,Phase II,865,78,12,74,38,Success,2.92,97.08,High Risk
+TRL0330,Cardiology,Vaccine,Phase II,1754,37,30,40,41,Success,35.24,64.76,High Risk
+TRL0331,Neurology,Vaccine,Phase III,830,67,77,63,23,Failure,2.34,97.66,High Risk
+TRL0332,Cardiology,Vaccine,Phase III,412,31,19,96,42,Failure,92.69,7.31,Low Risk
+TRL0333,Oncology,Vaccine,Phase I,606,19,17,75,24,Success,98.16,1.84,Low Risk
+TRL0334,Rare Disease,Small Molecule,Phase I,1418,26,92,45,33,Success,99.74,0.26,Low Risk
+TRL0335,Diabetes,Gene Therapy,Phase III,1766,54,59,80,45,Success,93.99,6.01,Low Risk
+TRL0336,Cardiology,Biologic,Phase III,1243,37,62,93,25,Failure,46.26,53.74,Medium Risk
+TRL0337,Oncology,Small Molecule,Phase III,405,43,5,85,38,Failure,7.43,92.57,High Risk
+TRL0338,Diabetes,Biologic,Phase II,240,46,31,99,17,Success,95.13,4.87,Low Risk
+TRL0339,Rare Disease,Gene Therapy,Phase II,1740,18,92,83,20,Failure,7.36,92.64,High Risk
+TRL0340,Diabetes,Vaccine,Phase III,471,72,42,99,46,Failure,8.63,91.37,High Risk
+TRL0341,Oncology,Gene Therapy,Phase II,749,52,1,96,44,Success,95.88,4.12,Low Risk
+TRL0342,Diabetes,Small Molecule,Phase II,56,23,59,70,7,Success,96.75,3.25,Low Risk
+TRL0343,Neurology,Vaccine,Phase I,182,54,22,59,34,Success,99.26,0.74,Low Risk
+TRL0344,Diabetes,Small Molecule,Phase III,1820,70,82,63,46,Failure,4.92,95.08,High Risk
+TRL0345,Cardiology,Vaccine,Phase III,606,76,30,64,15,Failure,1.17,98.83,High Risk
+TRL0346,Cardiology,Biologic,Phase II,875,22,4,75,7,Failure,2.44,97.56,High Risk
+TRL0347,Neurology,Biologic,Phase III,810,50,82,60,16,Failure,8.74,91.26,High Risk
+TRL0348,Oncology,Biologic,Phase I,1104,66,33,69,18,Success,25.09,74.91,High Risk
+TRL0349,Cardiology,Gene Therapy,Phase I,584,68,9,63,15,Failure,4.27,95.73,High Risk
+TRL0350,Rare Disease,Small Molecule,Phase I,475,31,88,83,19,Failure,88.18,11.82,Low Risk
+TRL0351,Cardiology,Gene Therapy,Phase III,1467,29,1,81,23,Success,60.92,39.08,Medium Risk
+TRL0352,Cardiology,Biologic,Phase III,721,59,10,69,14,Success,98.3,1.7,Low Risk
+TRL0353,Oncology,Small Molecule,Phase III,412,37,49,61,44,Failure,2.22,97.78,High Risk
+TRL0354,Diabetes,Biologic,Phase III,1510,70,30,67,33,Success,98.95,1.05,Low Risk
+TRL0355,Cardiology,Gene Therapy,Phase III,1743,67,55,46,8,Failure,3.02,96.98,High Risk
+TRL0356,Neurology,Gene Therapy,Phase I,1624,41,78,74,25,Success,97.86,2.14,Low Risk
+TRL0357,Diabetes,Gene Therapy,Phase II,131,76,72,94,11,Success,96.99,3.01,Low Risk
+TRL0358,Rare Disease,Biologic,Phase I,405,60,86,67,32,Failure,8.89,91.11,High Risk
+TRL0359,Oncology,Small Molecule,Phase III,1331,79,82,53,7,Success,93.79,6.21,Low Risk
+TRL0360,Rare Disease,Small Molecule,Phase I,1791,51,8,95,34,Success,63.54,36.46,Medium Risk
+TRL0361,Diabetes,Biologic,Phase III,638,42,98,49,43,Success,96.86,3.14,Low Risk
+TRL0362,Diabetes,Small Molecule,Phase III,1597,67,20,55,8,Failure,3.76,96.24,High Risk
+TRL0363,Diabetes,Biologic,Phase I,344,46,72,55,21,Success,99.2,0.8,Low Risk
+TRL0364,Rare Disease,Small Molecule,Phase III,1297,74,27,93,35,Failure,29.36,70.64,High Risk
+TRL0365,Diabetes,Vaccine,Phase II,1598,56,61,70,45,Success,94.07,5.93,Low Risk
+TRL0366,Rare Disease,Vaccine,Phase III,1119,48,6,81,7,Failure,4.25,95.75,High Risk
+TRL0367,Diabetes,Gene Therapy,Phase II,1740,73,79,64,22,Failure,1.31,98.69,High Risk
+TRL0368,Neurology,Vaccine,Phase II,1186,64,15,52,46,Success,98.23,1.77,Low Risk
+TRL0369,Diabetes,Vaccine,Phase III,1306,60,96,45,17,Success,98.72,1.28,Low Risk
+TRL0370,Rare Disease,Vaccine,Phase I,66,67,3,83,40,Success,93.85,6.15,Low Risk
+TRL0371,Cardiology,Biologic,Phase II,409,40,3,48,6,Success,7.77,92.23,High Risk
+TRL0372,Diabetes,Vaccine,Phase I,1296,61,39,84,20,Success,95.95,4.05,Low Risk
+TRL0373,Cardiology,Vaccine,Phase II,915,55,16,75,31,Success,89.94,10.06,Low Risk
+TRL0374,Neurology,Gene Therapy,Phase III,749,37,51,95,42,Success,95.42,4.58,Low Risk
+TRL0375,Oncology,Vaccine,Phase III,497,40,92,82,26,Success,98.29,1.71,Low Risk
+TRL0376,Neurology,Vaccine,Phase II,905,79,51,59,36,Success,98.7,1.3,Low Risk
+TRL0377,Diabetes,Small Molecule,Phase III,414,62,35,57,30,Success,97.41,2.59,Low Risk
+TRL0378,Cardiology,Gene Therapy,Phase II,724,69,37,97,28,Failure,4.65,95.35,High Risk
+TRL0379,Cardiology,Gene Therapy,Phase III,1057,33,49,82,29,Success,96.92,3.08,Low Risk
+TRL0380,Rare Disease,Gene Therapy,Phase I,1399,67,62,96,43,Success,98.08,1.92,Low Risk
+TRL0381,Cardiology,Gene Therapy,Phase III,516,59,62,60,33,Success,96.51,3.49,Low Risk
+TRL0382,Rare Disease,Gene Therapy,Phase I,463,77,61,43,26,Failure,4.92,95.08,High Risk
+TRL0383,Oncology,Gene Therapy,Phase III,1528,72,98,89,23,Failure,4.54,95.46,High Risk
+TRL0384,Diabetes,Biologic,Phase I,635,25,6,72,41,Failure,9.39,90.61,High Risk
+TRL0385,Rare Disease,Vaccine,Phase III,1306,67,26,66,40,Failure,7.14,92.86,High Risk
+TRL0386,Oncology,Gene Therapy,Phase I,1297,38,91,46,14,Success,97.58,2.42,Low Risk
+TRL0387,Cardiology,Vaccine,Phase II,1043,18,85,45,43,Failure,99.83,0.17,Low Risk
+TRL0388,Cardiology,Vaccine,Phase II,1904,72,13,54,35,Failure,71.67,28.33,Low Risk
+TRL0389,Oncology,Biologic,Phase I,1485,25,70,57,39,Success,96.01,3.99,Low Risk
+TRL0390,Cardiology,Gene Therapy,Phase III,621,46,85,71,37,Failure,8.09,91.91,High Risk
+TRL0391,Oncology,Small Molecule,Phase I,384,49,4,95,8,Success,74.26,25.74,Low Risk
+TRL0392,Rare Disease,Biologic,Phase III,1295,55,54,50,8,Success,95.32,4.68,Low Risk
+TRL0393,Rare Disease,Small Molecule,Phase II,86,22,1,59,33,Success,98.36,1.64,Low Risk
+TRL0394,Oncology,Vaccine,Phase III,1038,64,61,63,20,Success,97.07,2.93,Low Risk
+TRL0395,Rare Disease,Vaccine,Phase II,327,39,90,54,46,Failure,9.96,90.04,High Risk
+TRL0396,Rare Disease,Biologic,Phase III,1269,64,20,87,28,Success,98.46,1.54,Low Risk
+TRL0397,Rare Disease,Biologic,Phase III,965,51,78,46,45,Success,99.84,0.16,Low Risk
+TRL0398,Neurology,Small Molecule,Phase III,1937,18,20,60,16,Success,99.08,0.92,Low Risk
+TRL0399,Diabetes,Gene Therapy,Phase I,533,72,9,81,37,Failure,1.86,98.14,High Risk
+TRL0400,Cardiology,Small Molecule,Phase I,1315,72,86,65,41,Success,97.26,2.74,Low Risk
+TRL0401,Neurology,Biologic,Phase II,1397,43,57,83,38,Success,97.75,2.25,Low Risk
+TRL0402,Rare Disease,Small Molecule,Phase II,780,60,38,95,29,Failure,97.53,2.47,Low Risk
+TRL0403,Oncology,Biologic,Phase I,241,27,4,53,44,Failure,12.76,87.24,High Risk
+TRL0404,Rare Disease,Small Molecule,Phase II,1090,47,64,96,39,Success,87.26,12.74,Low Risk
+TRL0405,Diabetes,Biologic,Phase I,573,67,12,76,33,Failure,0.52,99.48,High Risk
+TRL0406,Rare Disease,Biologic,Phase III,967,35,84,97,42,Failure,7.1,92.9,High Risk
+TRL0407,Oncology,Biologic,Phase II,450,34,89,60,12,Failure,4.64,95.36,High Risk
+TRL0408,Diabetes,Gene Therapy,Phase II,1979,43,84,57,9,Success,95.54,4.46,Low Risk
+TRL0409,Rare Disease,Small Molecule,Phase I,935,25,52,44,42,Success,96.88,3.12,Low Risk
+TRL0410,Diabetes,Small Molecule,Phase II,754,64,81,42,6,Success,99.1,0.9,Low Risk
+TRL0411,Cardiology,Small Molecule,Phase II,71,57,44,62,6,Success,96.48,3.52,Low Risk
+TRL0412,Cardiology,Biologic,Phase III,523,66,31,65,25,Success,98.32,1.68,Low Risk
+TRL0413,Rare Disease,Small Molecule,Phase II,1193,29,35,76,24,Success,95.63,4.37,Low Risk
+TRL0414,Diabetes,Small Molecule,Phase III,259,44,80,63,34,Success,97.9,2.1,Low Risk
+TRL0415,Oncology,Biologic,Phase I,355,25,98,88,15,Success,96.64,3.36,Low Risk
+TRL0416,Rare Disease,Vaccine,Phase II,1343,42,59,58,23,Success,97.7,2.3,Low Risk
+TRL0417,Cardiology,Biologic,Phase III,753,63,10,90,33,Failure,7.65,92.35,High Risk
+TRL0418,Cardiology,Small Molecule,Phase I,736,21,62,64,40,Success,94.35,5.65,Low Risk
+TRL0419,Rare Disease,Biologic,Phase II,334,50,20,60,36,Success,97.2,2.8,Low Risk
+TRL0420,Diabetes,Vaccine,Phase I,765,18,51,51,32,Failure,7.3,92.7,High Risk
+TRL0421,Cardiology,Biologic,Phase II,1749,36,54,96,16,Success,83.54,16.46,Low Risk
+TRL0422,Diabetes,Small Molecule,Phase I,812,48,25,80,43,Failure,9.82,90.18,High Risk
+TRL0423,Cardiology,Vaccine,Phase I,1300,33,67,72,10,Failure,6.88,93.12,High Risk
+TRL0424,Cardiology,Gene Therapy,Phase III,997,31,33,89,13,Success,94.59,5.41,Low Risk
+TRL0425,Neurology,Small Molecule,Phase I,430,70,51,92,39,Failure,8.42,91.58,High Risk
+TRL0426,Cardiology,Vaccine,Phase II,509,65,81,43,17,Success,99.49,0.51,Low Risk
+TRL0427,Oncology,Vaccine,Phase II,1080,22,98,81,43,Success,99.5,0.5,Low Risk
+TRL0428,Rare Disease,Gene Therapy,Phase III,78,58,92,96,6,Success,91.55,8.45,Low Risk
+TRL0429,Rare Disease,Biologic,Phase II,956,43,51,46,36,Success,99.17,0.83,Low Risk
+TRL0430,Diabetes,Biologic,Phase II,1106,79,28,61,9,Failure,5.85,94.15,High Risk
+TRL0431,Cardiology,Small Molecule,Phase II,1719,45,37,94,10,Success,99.89,0.11,Low Risk
+TRL0432,Oncology,Gene Therapy,Phase I,928,19,41,72,35,Success,93.6,6.4,Low Risk
+TRL0433,Diabetes,Biologic,Phase I,128,67,20,56,29,Success,55.57,44.43,Medium Risk
+TRL0434,Neurology,Gene Therapy,Phase II,996,23,41,63,8,Success,94.42,5.58,Low Risk
+TRL0435,Diabetes,Biologic,Phase III,508,26,12,73,16,Success,94.5,5.5,Low Risk
+TRL0436,Diabetes,Vaccine,Phase I,619,50,63,67,9,Success,97.73,2.27,Low Risk
+TRL0437,Cardiology,Biologic,Phase III,1611,58,16,97,31,Failure,5.73,94.27,High Risk
+TRL0438,Neurology,Gene Therapy,Phase II,1555,42,8,82,32,Success,95.46,4.54,Low Risk
+TRL0439,Diabetes,Vaccine,Phase II,1503,65,40,80,32,Success,99.32,0.68,Low Risk
+TRL0440,Oncology,Vaccine,Phase I,787,30,0,78,47,Success,89.82,10.18,Low Risk
+TRL0441,Oncology,Vaccine,Phase II,1358,26,1,61,11,Success,99.15,0.85,Low Risk
+TRL0442,Rare Disease,Gene Therapy,Phase I,565,70,59,88,20,Failure,1.0,99.0,High Risk
+TRL0443,Neurology,Small Molecule,Phase II,1172,30,47,56,35,Success,98.0,2.0,Low Risk
+TRL0444,Neurology,Small Molecule,Phase II,446,48,28,73,47,Success,98.51,1.49,Low Risk
+TRL0445,Rare Disease,Small Molecule,Phase I,1562,58,96,45,42,Success,98.57,1.43,Low Risk
+TRL0446,Diabetes,Gene Therapy,Phase I,88,28,9,85,42,Failure,90.92,9.08,Low Risk
+TRL0447,Neurology,Vaccine,Phase I,1344,21,57,45,47,Success,99.71,0.29,Low Risk
+TRL0448,Oncology,Small Molecule,Phase II,936,51,59,73,42,Success,98.62,1.38,Low Risk
+TRL0449,Oncology,Gene Therapy,Phase II,846,78,20,40,40,Failure,4.08,95.92,High Risk
+TRL0450,Cardiology,Small Molecule,Phase III,206,55,27,49,28,Success,98.94,1.06,Low Risk
+TRL0451,Neurology,Biologic,Phase I,1148,63,74,60,11,Failure,6.89,93.11,High Risk
+TRL0452,Diabetes,Small Molecule,Phase II,933,21,33,44,9,Failure,5.28,94.72,High Risk
+TRL0453,Rare Disease,Small Molecule,Phase II,1873,55,7,41,23,Success,59.92,40.08,Medium Risk
+TRL0454,Rare Disease,Vaccine,Phase I,1203,36,58,61,14,Success,95.86,4.14,Low Risk
+TRL0455,Diabetes,Gene Therapy,Phase III,1760,23,85,87,34,Success,19.9,80.1,High Risk
+TRL0456,Cardiology,Vaccine,Phase I,1023,51,71,96,18,Success,94.85,5.15,Low Risk
+TRL0457,Rare Disease,Vaccine,Phase III,1157,35,48,41,22,Failure,98.41,1.59,Low Risk
+TRL0458,Neurology,Vaccine,Phase II,1095,30,78,49,37,Success,73.31,26.69,Low Risk
+TRL0459,Cardiology,Vaccine,Phase III,1532,58,16,73,27,Success,93.5,6.5,Low Risk
+TRL0460,Neurology,Vaccine,Phase II,1612,40,59,55,9,Failure,7.87,92.13,High Risk
+TRL0461,Oncology,Small Molecule,Phase I,1780,36,86,87,10,Success,97.58,2.42,Low Risk
+TRL0462,Cardiology,Vaccine,Phase I,898,62,87,90,42,Success,95.76,4.24,Low Risk
+TRL0463,Rare Disease,Vaccine,Phase I,1455,28,44,78,46,Success,93.22,6.78,Low Risk
+TRL0464,Cardiology,Gene Therapy,Phase III,797,18,82,61,18,Success,91.58,8.42,Low Risk
+TRL0465,Cardiology,Biologic,Phase II,1513,41,68,51,39,Failure,2.67,97.33,High Risk
+TRL0466,Cardiology,Small Molecule,Phase I,1677,79,31,63,27,Success,96.38,3.62,Low Risk
+TRL0467,Cardiology,Small Molecule,Phase I,1038,71,43,86,28,Success,95.0,5.0,Low Risk
+TRL0468,Neurology,Small Molecule,Phase II,70,24,64,79,8,Success,97.44,2.56,Low Risk
+TRL0469,Oncology,Vaccine,Phase I,352,42,86,77,47,Success,98.18,1.82,Low Risk
+TRL0470,Diabetes,Vaccine,Phase II,918,38,7,99,39,Success,46.19,53.81,Medium Risk
+TRL0471,Cardiology,Vaccine,Phase II,133,32,76,98,37,Success,98.16,1.84,Low Risk
+TRL0472,Rare Disease,Gene Therapy,Phase II,1847,18,71,49,26,Success,64.93,35.07,Medium Risk
+TRL0473,Cardiology,Biologic,Phase II,1732,29,86,74,26,Failure,8.81,91.19,High Risk
+TRL0474,Rare Disease,Vaccine,Phase II,1526,75,42,90,16,Success,13.74,86.26,High Risk
+TRL0475,Neurology,Biologic,Phase III,1460,24,0,88,44,Success,98.45,1.55,Low Risk
+TRL0476,Rare Disease,Gene Therapy,Phase I,1580,32,50,71,9,Success,97.8,2.2,Low Risk
+TRL0477,Diabetes,Small Molecule,Phase III,1330,38,23,46,6,Failure,6.44,93.56,High Risk
+TRL0478,Oncology,Vaccine,Phase I,619,36,98,60,33,Failure,3.58,96.42,High Risk
+TRL0479,Rare Disease,Biologic,Phase III,1965,77,23,59,29,Success,96.33,3.67,Low Risk
+TRL0480,Rare Disease,Biologic,Phase II,983,46,16,65,40,Failure,4.43,95.57,High Risk
+TRL0481,Oncology,Vaccine,Phase I,1600,42,4,43,18,Success,9.84,90.16,High Risk
+TRL0482,Diabetes,Small Molecule,Phase I,1235,50,19,85,39,Success,54.25,45.75,Medium Risk
+TRL0483,Cardiology,Small Molecule,Phase III,1236,66,20,91,16,Success,74.58,25.42,Low Risk
+TRL0484,Rare Disease,Small Molecule,Phase III,1905,49,57,61,41,Success,96.53,3.47,Low Risk
+TRL0485,Oncology,Gene Therapy,Phase I,1058,66,30,54,22,Failure,51.86,48.14,Medium Risk
+TRL0486,Neurology,Biologic,Phase III,842,52,99,95,40,Success,95.44,4.56,Low Risk
+TRL0487,Oncology,Biologic,Phase III,841,61,10,79,23,Success,96.88,3.12,Low Risk
+TRL0488,Neurology,Biologic,Phase III,1597,55,51,60,45,Failure,10.14,89.86,High Risk
+TRL0489,Diabetes,Gene Therapy,Phase II,1859,43,14,54,27,Success,96.62,3.38,Low Risk
+TRL0490,Cardiology,Biologic,Phase II,1344,28,82,61,29,Success,93.33,6.67,Low Risk
+TRL0491,Oncology,Gene Therapy,Phase III,541,52,6,91,24,Success,99.1,0.9,Low Risk
+TRL0492,Rare Disease,Small Molecule,Phase III,257,25,27,67,42,Success,96.5,3.5,Low Risk
+TRL0493,Diabetes,Vaccine,Phase II,1612,63,50,53,44,Success,95.36,4.64,Low Risk
+TRL0494,Oncology,Biologic,Phase II,1657,31,57,66,26,Success,98.17,1.83,Low Risk
+TRL0495,Rare Disease,Biologic,Phase I,1133,27,4,80,13,Success,96.03,3.97,Low Risk
+TRL0496,Oncology,Small Molecule,Phase I,479,19,4,79,33,Success,96.03,3.97,Low Risk
+TRL0497,Neurology,Vaccine,Phase II,1034,63,93,97,10,Failure,93.07,6.93,Low Risk
+TRL0498,Oncology,Gene Therapy,Phase III,1730,26,95,67,22,Success,93.73,6.27,Low Risk
+TRL0499,Oncology,Vaccine,Phase III,1678,20,7,65,42,Success,98.16,1.84,Low Risk
+TRL0500,Oncology,Small Molecule,Phase III,1382,38,63,88,41,Success,94.78,5.22,Low Risk
